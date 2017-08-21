@@ -635,3 +635,294 @@ sudo dnf remove xf*
 sudo dnf list installed
 sudo dnf list installed | grep xf
 reboot 
+vim
+vim .config/i3/
+compton
+vim .config/i3/
+cd .dotfiles/
+ls
+git push 
+git remote add .dotfiles
+git pull
+cd ..
+ls
+git pull https://github.com/KmBKeef/dotfiles
+git clone  https://github.com/KmBKeef/dotfiles
+mv dotfiles/ .dotfiles/
+cd .dotfiles/
+ls
+git add mydotfile 
+mv dotfiles/ ..
+cd ..
+ls
+rm .dotfiles/
+rm -rf .dotfiles/
+mv dotfiles/ .dotfiles/
+ls
+cd .dotfiles/
+ls
+echo "This is a dotfile." > mydotfile
+git add mydotfile 
+git commit -i 'not a dotfile'
+git commit -i -m 'not a dotfile'
+git commit -m 'not a dotfile'
+git push 
+ls
+cd ..
+ls
+cd ..
+ls
+cd .dotfiles
+cd mk/.dotfiles/
+mkdir bash
+mkdir vim tmux 
+ls
+mv ~/.bash* bash/
+mv ~/.tmux* bash/
+cd ..
+sl
+ls
+ls -l .tmux
+sudo chown mk:mk -R ~/.tmux/ 
+cd .dotfiles/
+mv ~/.tmux* bash/
+mv bash/.tmux* ../tmux
+ls
+mv bash/.tmux* tmux/
+ls
+mv vim/ nvim
+mv ~/.config/nvim/* nvim/
+mkdir i3
+mv ~/.config/i3/* i3/
+ls
+tree
+cd ..
+stow nvim
+cd .dotfiles/
+stow nvim
+stow tmux/
+stow bash
+stow i3/
+ls
+cd ..
+ls
+nvim
+cd ..
+ls
+cd mk/.dotfiles/
+ls
+mv nvim/ i3/ ~/.config/
+mv ~/.config/ .
+ls
+mv ~/.config/ .
+ls
+ls -la
+stow .config/
+cd ..
+ls
+cd ..
+ls
+cd mk/.dotfiles/
+ls
+mkdir config
+mv .config/ config/
+ls
+stow config/
+cd
+ls
+rm  ls -a
+ls -a
+rm abrt cmus config gconf imsettings init.vim libreoffice pulse ranger xfce4 user-dirs.* yumex-dnf nvim nautilus  eog ibus htop cava Thunar gtk-3.0 goa-1.0 dconf  mimeapps.list 
+ls
+rm i3 alacritty plugged 
+ls
+cd .dotfiles/
+ls
+rm alacritty/
+rm -rf alacritty/
+cd config/.config/
+ls
+rm xfce4/
+rm -rf xfce4/
+cat gtk-3.0/settings.ini 
+cd ,,
+cd ..
+ls
+ls -la
+cd .config/
+ls
+cd imsettings/
+ls
+ls -la
+cd ..
+ls
+rm imsettings/
+rm -r imsettings/
+ls
+ls dconf/
+cat dconf/user 
+6c
+ls
+mv dconf/user ~/.config/
+ls goa-1.0/
+rm goa-1.0/
+rm -r goa-1.0/
+ls abrt/
+rm abrt/
+rm -r abrt
+ls ranger/
+ls htop/
+ls ranger/history 
+cat ranger/history 
+cat ranger/bookmarks 
+rm ranger/bookmarks 
+rm ranger/tagged 
+ls
+ls i3/config 
+ls ibus/
+ls ibus/bus/9c38670a96af46be95f71466ac4c2bec-unix-0 
+cat ibus/bus/9c38670a96af46be95f71466ac4c2bec-unix-0 
+mv ibus/ ~/.config/
+mv -f ibus/ ~/.config/
+mv -F ibus/ ~/.config/
+mv -m ibus/ ~/.config/
+mv --help
+touch abrt
+mv -u ibus/ ~/.config/
+mv -i ibus/ ~/.config/
+rm -r ~/.config/abrt 
+mv -i ibus/ ~/.config/
+rm -r ~/.config/ibus/
+mv -i ibus/ ~/.config/
+mv  ibus/ ~/.config/
+ls
+cat user
+rm user user-dirs.dirs user-dirs.locale  yumex-dnf/ Thunar/ eog/ 
+rm -rf user user-dirs.dirs user-dirs.locale  yumex-dnf/ Thunar/ eog/ 
+cat gconf/
+ls gconf/
+rm -rf gconf/
+ls
+ls htop/
+cat htop/htoprc h
+ls
+rm -r htop/
+rm -r libreoffice/
+rm -r mimeapps.list 
+ls
+git add *
+cd..
+cd ..
+ls
+cd ..
+ls
+git add *
+git commit -m 'this is'
+git push 
+ssh -T git@github.com
+git push 
+ssh -T git@edraj.io
+cd
+eval $(ssh-agent)
+ssh-add 
+ssh-add -k
+ssh-add -L
+ssh-add -K
+cd .dotfiles/
+git puc
+git push 
+git pull 
+ls
+git push 
+git remote set-url origin git@github.com:KmBKeef/dotfiles
+git push 
+vim README.md
+git add README.md 
+git commit -m 'stow bro'
+git push 
+cd ..
+ls
+sudo dnf install nautilus
+eog 
+sudo dnf install nautilus
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20for%20Powerline%20Nerd%20Font%20Complete.otf
+sudo dnf install fontforge
+vf
+cd
+nvim
+vim .dotfiles/config/.config/nvim/init.vim 
+LS
+setleds -D -caps
+setleds -caps
+python -c 'from ctypes import *; X11 = cdll.LoadLibrary("libX11.so.6"); display = X11.XOpenDisplay(None); X11.XkbLockModifiers(display, c_uint(0x0100), c_uint(2), c_uint(0)); X11.XCloseDisplay(display)'
+sudo dnf install  xdotool
+ xdotool key Caps_Lock
+cd bin/
+vim togglecaps
+chmod +x togglecaps 
+togglecaps 
+ls
+cd ..
+ls
+mv bin/ .dotfiles/bash/
+cd .dotfiles/ && stow bash
+ks
+cd 
+ls
+ls -la
+cd ..
+cd 
+vim .dotfiles/bash/bin/lock.sh 
+.dotfiles/bash/bin/lock.sh 
+cd .dotfiles/ && stow bash && cd
+vim .config/i3/config 
+cat .dotfiles/config/.config/i3/config | grep lock
+cat .dotfiles/config/.config/i3/config | grep hack
+cat .config/alacritty/alacritty.yml 
+vim .config/alacritty/alacritty.yml 
+ls
+clear 
+ls
+clear
+nvim
+q
+mpv --vo tct
+sudo dnf install mpv
+mpv --vo tct
+mpv --vo /home/mk/Videos/SillconValley/Si.va.s02e08.720p.x265.HEVC.AAR.UTR.www.maxmkv.net.mkv 
+mpv -h
+man mpv
+mpv -o /home/mk/Videos/SillconValley/Si.va.s02e08.720p.x265.HEVC.AAR.UTR.www.maxmkv.net.mkv 
+mpv --o /home/mk/Videos/SillconValley/Si.va.s02e08.720p.x265.HEVC.AAR.UTR.www.maxmkv.net.mkv 
+man mpv
+cd Videos/
+ls
+cd Linux/
+ls
+mpv output.mkv 
+mpv -o output.mkv 
+mpv --vo output.mkv 
+mpv --vo
+man mpv
+sudo dnf install tct
+sudo dnf sear
+mpv --vo tct
+mpv --vo rpi
+mpv --vo mesa
+mpv --vo help
+mpv --vo helptxt
+mpv --vo tct
+mpv --vo helptxt
+mpv --vo help
+ls
+cat /dev/urandom 
+:q
+cat /dev/urandom 
+l
+cd Downloads/Instantly_Better_Vim_2013/
+ls
+open Notes.pdf 
+ranger .
+ mpv --vo tct https://www.youtube.com/watch?v=qI8eAlteW9E
+mpv --vo tct https://www.youtube.com/watch?v=iko4s3CfBi0

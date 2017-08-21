@@ -9,10 +9,15 @@ function! DoRemote(arg)
   UpdateRemotePlugins
 endfunction
 
+source /home/mk/.config/nvim/plugged/dragvisuals.vim
+" Plug 'ryanoasis/vim-devicons'
+" Plug 'KmBKeef/myvim'
 Plug 'vim-syntastic/syntastic'
 Plug 'itchyny/lightline.vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'tweekmonster/deoplete-clang2'
+Plug 'davidhalter/jedi-vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree'
@@ -20,18 +25,20 @@ Plug 'vimwiki/vimwiki'
 " Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'tomtom/tcomment_vim' " gc comments
-Plug 'junegunn/goyo.vim' " Distraction Free mode
+" Plug 'junegunn/goyo.vim' " Distraction Free mode
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-speeddating'
 Plug 'jiangmiao/auto-pairs'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'easymotion/vim-easymotion'
+" Plug 'roxma/nvim-completion-manager' " A Completion Framework for Neovim
 Plug 'ervandew/supertab'
 Plug 'thirtythreeforty/lessspace.vim'
 Plug 'benekastah/neomake'
-" Plug 'davidhalter/jedi-vim'
-Plug 'zchee/deoplete-jedi'
+" " Plug 'ajcrites/autoswap-tmux'
+" Plug 'roxma/clang_complete'
+" " Plug 'zchee/deoplete-jedi'
 
 " FZF / Ctrlp for file navigation
 if executable('fzf')
@@ -41,8 +48,9 @@ else
   Plug 'ctrlpvim/ctrlp.vim'
 endif
 " Fix history issue
-let g:jedi#show_call_signatures = "0"
+" let g:jedi#show_call_signatures = "0"
 " let g:jedi#completions_enabled = 1
+let g:deoplete#enable_at_startup = 1
 " For syntastic
 " set statusline+=%#warningmsg#
 " set statusline+=%{SyntasticStatuslineFlag()}
@@ -62,20 +70,20 @@ let g:jedi#show_call_signatures = "0"
 "
 " Language plugins
 " Scala plugins
-if executable('scalac')
-  Plug 'derekwyatt/vim-scala'
-endif
+" if executable('scalac')
+"   Plug 'derekwyatt/vim-scala'
+" endif
 " Haskell Plugins
 " Plug 'neovimhaskell/haskell-vim'
 " Rust Plugins
-if executable('rustc')
-  Plug 'rust-lang/rust.vim'
-  Plug 'racer-rust/vim-racer'
-endif
+" if executable('rustc')
+"   Plug 'rust-lang/rust.vim'
+"   Plug 'racer-rust/vim-racer'
+" endif
 
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnippsJumpBackwardTrigger="<c-z>"
 
 let g:lightline = {
       \ 'colorscheme': 'nord',
@@ -97,7 +105,7 @@ syntax on
 set noshowmode
 set background=dark
 colorscheme nord
-
+set guifont=hack
 " whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd Syntax * syn match ExtraWhitespace /\s\+$/ containedin=ALL
@@ -109,7 +117,7 @@ autocmd Syntax * syn match UndefinedMarks /???/ containedin=ALL
 " Automatic syntax highlighting for files
 au BufRead,BufNewFile *.txt     set filetype=markdown
 au BufRead,BufNewFile *.wiki    set filetype=vimwiki
-au BufRead,BufNewFile *.wiki    colorscheme darkblue
+" au BufRead,BufNewFile *.wiki    colorscheme darkblue
 au BufRead,BufNewFile *.conf    set filetype=dosini
 au BufRead,BufNewFile *.bash*   set filetype=sh
 au BufRead,BufNewFile *.jsonnet*   set filetype=c
@@ -121,18 +129,18 @@ au BufRead,BufNewFile todo*   set filetype=todo
 " set fillchars=vert:\|
 set fillchars=vert:│
 
-set colorcolumn=101
+set colorcolumn=81
 set cursorline
 " }}}
 " KEYMAPPINGS {{{
 " Leader key
 let mapleader = ","
 
-" arrow keys disable
+" arrow keys disable / use up and down to move current line
 nnoremap <right> <nop>
-nnoremap <down> <nop>
+nnoremap <down> ddp
 nnoremap <left> <nop>
-nnoremap <up> <nop>
+nnoremap <up> ddkP
 
 vnoremap <right> <nop>
 vnoremap <down> <nop>
@@ -142,24 +150,24 @@ vnoremap <up> <nop>
 " j/k move virtual lines, gj/jk move physical lines
 noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
-
 " Remap increment and decrement numbers to something that works on macs/linux
 nnoremap <A-a> <C-a>
 nnoremap <A-x> <C-x>
 
 " panes
-nnoremap <leader>d :vsp<cr>
+nnoremap <leader>d :vsp<CR>
 set splitright
-nnoremap <leader>s :split<cr>
+nnoremap <leader>s :split<CR>
 set splitbelow
+
 " map <C-w>w (switch buffer focus) to something nicer
 nnoremap <leader>w <C-w>w
 
 " tabs
-nnoremap <leader>] :tabn<cr>
-nnoremap <leader>[ :tabp<cr>
+nnoremap <leader>] :tabn<CR>
+nnoremap <leader>[ :tabp<CR>
 
-" Insert date
+" Insert datecrcr
 nnoremap <leader>fd "=strftime("%m-%d-%y")<CR>p
 
 " Edit vimrc
@@ -169,6 +177,29 @@ nnoremap <leader>evs :source $MYVIMRC<cr>
 " Quickfix toggle
 nnoremap <leader>q :call QuickfixToggle()<cr>
 
+" dragvisuals
+vmap <expr> <LEFT> DVB_Drag('left')
+vmap <expr> <RIGHT> DVB_Drag('right')
+vmap <expr> <DOWN> DVB_Drag('down')
+vmap <expr> <UP> DVB_Drag('up')
+
+vmap <expr> D DVB_Duplicate()
+
+" Always center
+nmap G Gzz
+nmap N Nzz
+nmap n nzz
+nmap { {zz
+nmap } }zz
+
+" Use the Useful one
+nnoremap ; :
+" nnoremap : ;
+
+nnoremap v <C-v>
+nnoremap <C-v> v
+
+
 " }}}
 " BRACE COMPLETION {{{
 set showmatch
@@ -177,11 +208,11 @@ inoremap {<CR>  {<CR>}<Esc>O
 inoremap <expr> }  strpart(getline('.'), col('.')-1, 1) == "}" ? "\<Right>" : "}"
 inoremap {}     {}
 
+
 inoremap (      ()<Left>
 inoremap (<CR>  (<CR>)<Esc>O
 inoremap <expr> )  strpart(getline('.'), col('.')-1, 1) == ")" ? "\<Right>" : ")"
 inoremap ()     ()
-
 inoremap [      []<Left>
 inoremap [<CR>  [<CR>]<Esc>O
 inoremap <expr> ]  strpart(getline('.'), col('.')-1, 1) == "]" ? "\<Right>" : "]"
@@ -198,6 +229,7 @@ set softtabstop=2
 set expandtab
 set autoindent
 filetype indent off
+
 au BufNewFile,BufRead *.py
   \ setlocal tabstop=4
   \ shiftwidth=4
@@ -212,6 +244,8 @@ set relativenumber
 " show title
 set title
 
+" show list
+set list
 " mouse
 set mouse-=a
 
@@ -240,9 +274,9 @@ set guicursor=
 " vnoremap <leader>T :call ToggleTodoToday()<cr>
 
 " deoplete
-let g:deoplete#enable_at_startup=1
-let g:deoplete#sources#clang#libclang_path='/usr/lib64/libclang.so'
-let g:deoplete#sources#clang#clang_header='/usr/lib64/clang/4.0.0/include/'
+" let g:deoplete#enable_at_startup=1
+" let g:deoplete#sources#clang#libclang_path='/usr/lib64/libclang.so'
+" let g:deoplete#sources#clang#clang_header='/usr/lib64/clang/4.0.0/include/'
 
 inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : "\<C-i>"
 
@@ -335,4 +369,17 @@ if executable('fzf')
 else
   nnoremap <leader>v :CtrlP<Space><cr>
 endif
-" }}}
+"===== From DC ===="
+
+" function! HLNext (blinktime)
+"   let [bufnum, lnum, col, off] = getpos('.')
+"   let matchlen = strlen(matchstr(strpart(getline('.'),col-1),@/))
+"   let target_pat = '\c\%#\%('.@/.'\)'
+"   let ring = matchadd('DiffText', target_pat, 101)
+"   redraw
+"   exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
+"   call matchdelete(ring)
+"   redraw
+" endfunction
+
+      " }}}
