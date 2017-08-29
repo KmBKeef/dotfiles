@@ -24,14 +24,14 @@ dimensions:
 # Units are physical pixels; this is not DPI aware.
 # (change requires restart)
 padding:
-  x: 5
-  y: 5
+  x: 3
+  y: 3
 
 # The FreeType rasterizer needs to know the device DPI for best results
 # (changes require restart)
 dpi:
-  x: 96.0
-  y: 96.0
+  x: 157.0
+  y: 157.0
 
 # Display tabs using this many cells (changes require restart)
 tabspaces: 8
@@ -66,7 +66,7 @@ font:
     # style: Italic
 
   # Point size of the font
-  size: 13.0
+  size: 12.0
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
@@ -91,7 +91,9 @@ render_timer: false
 
 # Use custom cursor colors. If true, display the cursor in the cursor.foreground
 # and cursor.background colors, otherwise invert the colors of the cursor.
+background_opacity: 0.5
 custom_cursor_colors: false
+#
 # Colors (Nord)
 colors:
    # Default colors
@@ -121,8 +123,8 @@ colors:
      cyan:    '0x8FBCBB'
      white:   '0xECEFF4'
 
-# Colors (Tomorrow Night Bright)
-#colors:
+# # Colors (Tomorrow Night Bright)
+# colors:
 #  # Default colors
 #  primary:
 #    background: '0x1D1C27'
@@ -140,8 +142,8 @@ colors:
 #    green:   '0x00FA8E'
 #    yellow:  '0xE5D781'
 #    blue:    '0x18A2FF'
-#    magenta: '0xCE63EC'
-#    cyan:    '0x47E3DD'
+   # magenta: '0xCE63EC'
+   # cyan:    '0x47E3DD'
 #    white:   '0xC8D1E3'
 #
 #  # Bright colors
@@ -157,14 +159,14 @@ colors:
 #
 #  # Dim colors (Optional)
 #  dim:
-#￼   black:   '0x333333'
-#￼   red:     '0xf2777a'
-#￼   green:   '0x99cc99'
-#￼   yellow:  '0xffcc66'
-#￼   blue:    '0x6699cc'
-#￼   magenta: '0xcc99cc'
-#￼   cyan:    '0x66cccc'
-#￼   white:   '0xdddddd'
+# ￼   black:   '0x333333'
+# ￼   red:     '0xf2777a'
+# ￼   green:   '0x99cc99'
+# ￼   yellow:  '0xffcc66'
+# ￼   blue:    '0x6699cc'
+# ￼   magenta: '0xcc99cc'
+# ￼   cyan:    '0x66cccc'
+# ￼   white:   '0xdddddd'
 
 # Visual Bell
 #

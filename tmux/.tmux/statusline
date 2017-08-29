@@ -1,0 +1,36 @@
+# status bar
+set -g status "on"
+set -g status-attr "none"
+set -g status-justify "left"
+set -g status-fg brightblue
+set -g status-bg brightblack
+# status left
+set -g status-left-attr bold
+set -g status-left-length "50"
+# status right
+set -g status-right-attr bold
+set -g status-right-length "50"
+# window
+setw -g window-status-attr "none"
+setw -g window-status-separator "❯"
+# activity in window
+setw -g window-status-activity-style reverse
+setw -g window-status-bell-style reverse
+# panes
+set -g pane-active-border-fg brightblue
+set -g pane-active-border-bg brightblack
+set -g pane-border-fg brightblack
+set -g pane-border-bg brightblack
+# command bar
+set -g message-command-fg brightblue
+set -g message-command-bg brightblack
+set -g message-fg brightblue
+set -g message-bg brightblack
+set -g message-attr bold
+# Window status
+setw -g window-status-current-format "#[fg=brightwhite,bg=brightblack]  #I: #W  "
+setw -g window-status-current-attr bold
+setw -g window-status-format "#[fg=0,bg=brightblack]  #I: #W  "
+# Status left and right
+set-option -g status-left "#(~/.tmux/left.sh)"
+set-option -g status-right "#(~/.tmux/right.sh)"

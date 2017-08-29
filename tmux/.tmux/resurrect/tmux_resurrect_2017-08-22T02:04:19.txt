@@ -1,0 +1,7 @@
+pane	0	1	:bash	1	:*Z	1	:/home/mk/lab/cpp	0	nvim	:nvim SDL.cpp
+pane	0	1	:bash	1	:*Z	2	:/home/mk/lab/cpp	0	bash	:
+pane	0	1	:bash	1	:*Z	3	:/home/mk	1	bash	:
+pane	0	2	:bash	0	:-	1	:/home/mk	1	bash	:
+window	0	1	1	:*Z	0ca8,191x51,0,0{116x51,0,0,1,74x51,117,0[74x25,117,0,5,74x25,117,26,6]}
+window	0	2	0	:-	b344,191x51,0,0,7
+state	0	

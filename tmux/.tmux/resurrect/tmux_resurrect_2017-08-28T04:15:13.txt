@@ -1,0 +1,6 @@
+pane	0	1	:bash	0	:-	1	:/home/mk/lab/cpp/ping	1	bash	:
+pane	0	2	:bash	1	:*	1	:/home/mk/lab/vagrant	0	bash	:
+pane	0	2	:bash	1	:*	2	:/home/mk/gits/x4/ansible	1	bash	:
+window	0	1	0	:-	d47d,188x49,0,0,0
+window	0	2	1	:*	c29f,188x49,0,0[188x24,0,0,4,188x24,0,25,5]
+state	0	

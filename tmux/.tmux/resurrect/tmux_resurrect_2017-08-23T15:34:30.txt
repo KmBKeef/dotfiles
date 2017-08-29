@@ -1,0 +1,5 @@
+pane	0	1	:bash	1	:*	1	:/home/mk/.dotfiles/config/.config/polybar	1	nvim	:nvim ../sxhkd/sxhkdrc
+pane	3	1	:bash	1	:*	1	:/home/mk	1	bash	:
+window	0	1	1	:*	b67d,188x51,0,0,0
+window	3	1	1	:*	d483,188x49,0,0,6
+state	3	

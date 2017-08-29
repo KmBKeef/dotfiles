@@ -1,0 +1,10 @@
+pane	0	1	:bash	0	:-	1	:/home/mk/lab/vagrant	0	sudo	:sudo vagrant ssh
+pane	0	1	:bash	0	:-	2	:/home/mk/gits/x4/ansible	1	python2	:/usr/bin/python2 /usr/bin/ansible-playbook playbook.yml -i hosts --ask-pass
+pane	0	1	:bash	0	:-	3	:/home/mk	0	bash	:
+pane	0	2	:bash	0	:	1	:/home/mk/gits/21st-century-pong	1	bash	:
+pane	0	3	:bash	1	:*	1	:/home/mk	1	bash	:
+pane	0	3	:bash	1	:*	2	:/home/mk	0	bash	:
+window	0	1	0	:-	d826,188x49,0,0[188x20,0,0,1,188x28,0,21{94x28,0,21,6,93x28,95,21,7}]
+window	0	2	0	:	d480,188x49,0,0,3
+window	0	3	1	:*	48ec,188x49,0,0{94x49,0,0,8,93x49,95,0,9}
+state	0	

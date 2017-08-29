@@ -1,928 +1,1000 @@
-ls
-sudo mount /dev/sdb /mnt/
-sudo remount +rw /dev/sdb /mnt/
-sudo rmount +rw /dev/sdb /mnt/
-sudo umount /dev/sdb /mnt/
-sudo umount /dev/sdb 
-sudo mount +w /dev/sdb 
-sudo mount rw /dev/sdb 
-sudo mount -o rw, /dev/sdb 
-sudo mount -o rw, /dev/sdb  /mnt
-sudo mount -o remount, rw /dev/sdb 
-sudo mount -o remount,rw /dev/sdb  /mnt/
-sudo mount /dev/sdb /mnt/
-cd /mnt/
-ls -la
+ls .config/nvim/
+ls .config/nvim/plugged/
+cd ..
 cd
-cd /mnt/
-sudo mount /dev/sdb /mnt/
-sudo mount /dev/sdb /tmp/
-sudo umount  /dev/sdb
-sudo mount /dev/sdb /tmp/
-cd /mnt/
+vim
+nvim
+nvim 
+ls .local/share/nvim/shada/main.shada
+cd
+nvim
+vi
+sudo dnf reinstall neovim
+nvim 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+nvim 
 ls
-ls -la
-umount /dev/sdb
-sudo umount /dev/sdb
-sudo mount /dev/sdb /tmp/
+nvim 
+nvim
+ls
+ls .config/nvim/
+ls .config/nvim/plugged/
+cd
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+nvim 
+cd lab/cpp/
+mv SDL.cpp main.cpp
+vim main.cpp 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+vim main.cpp 
+./sdl 
+vim main.cpp 
+./sdl 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+./sdl 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+./s
+./sdl 
+vim main.cpp 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+./sdl 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+./sdl 
+ls
+vim  main.cpp 
+mv screen.cpp Screen.cpp
+mv screen.h Screen.h
+vim Screen.cpp 
+vim Screen.h
+g++ main.cpp  screen.cpp screen.h -lSDL2 -o sdl 
+g++ main.cpp  Screen.cpp Screen.h -lSDL2 -o sdl 
+vim Screen.h
+g++ main.cpp  Screen.cpp Screen.h -lSDL2 -o sdl 
+./sdl 
+vim Particle.
+vim Particle.h
+vim Particle.cpp 
+mv swarm.cpp Swarm.cpp
+mv swarm.h Swarm.h
+vim Swarm.
+vim Swarm.cpp 
+vim Swarm.h
+ls
+vim Swarm.h
+vim Swarm.cpp 
+vim Swarm.h
+vim main.cpp 
+vim Screen.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+ls
+vim Swarm.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+vim Swarm.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+cava 
+vim .config/sxhkd/sxhkdrc 
+cd lab/cpp/
+./s
+./sdl 
+vim ~/.config/sxhkd/sxhkdrc O ~/.config/i3/config 
+vim Particle.h
+vim Particle.cpp 
+vim main.cpp 
+vim Swarm.h
+vim Swarm.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+vim Screen.h
+vim Screen.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+vim Screen.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+vim Particle.cpp 
+brightnessctl s 20%-
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./s
+./sdl 
+brightnessctl s 20%-
+vim Particle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+vim
+cd lab/cpp/
+vim Particle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+vim Particle.cpp 
+./sdl 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+vim Particle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+vim Particle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+vim Particle.cpp 
+vim Swarm.h 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+./sdl 
+tmux 
+lock.sh 
 lsblk 
-sudo mount /dev/sdc /mnt/
+mount /dev/sdb /mnt/
+sudo mount /dev/sdb /mnt/
 cd /m
 cd /mnt/
 ls
-cd ansible
+cp -r Dota\ 2/ ~/
+umount /dev/sdb 
+sudo umount /dev/sdb 
+xkill
+sudo dnf install gnome-disks
+sudo dnf search fedora 
+sudo dnf search fedora  | grep media
+sudo dnf install mesdiawriter
+sudo dnf install mediawriter
+mediawriter 
+sudo mediawriter 
+sync
+sudo dnf install steam
+cd ping/
 ls
-vi tasks/initial.yml 
-vi tasks/i3.yml 
-startx
-vi tasks/i3.yml 
-vi vars.yml 
-./run.sh 
-sudo dnf install ansible libselinux-python
-./run.sh 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Particle.h Particle.cpp Swarm.h Swarm.cpp -lSDL2 -o sdl 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Ball.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Ball.cpp 
+vim Ball.h
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+./sdl 
+ls
+rm Bars.cpp Bars.h
+vim Paddle.h -O Paddle.cpp
+vim main.cpp 
+vim Paddle.h 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim main.cpp 
+vim Paddle.h 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Paddle.h 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Paddle.h 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+ls
+vim main.cpp 
+vim Paddle.cpp 
+vim Paddle.h
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim main.cpp 
+vim Paddle.h
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Paddle.h
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Paddle.h
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim main.cpp 
+ls
+vim Paddle.h -O Paddle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Paddle.h -O Paddle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Paddle.h -O Paddle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Paddle.h -O Paddle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+vim Paddle.h -O Paddle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h -lSDL2 -o sdl 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim Paddle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Paddle.h
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Screen.cpp 
+vim Screen.h
+vim Screen.cpp 
+./sdl 
+vim main.cpp 
+vim Screen.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+cd ..
+cd ~/gits/
+git clone  https://github.com/chaficnajjar/21st-century-pong.git
+cd 21st-century-pong/
+ls
+make
+sudo dnf install sdl_mixer
+sudo dnf search sdl_mixer
+
+make
+sudo updatedb
+locate SDL_mixer
+sudo dnf install SDL2_mixer
+sudo dnf install SDL2_mixer-devel
+make
+ls
+./pong 
+lock.sh 
+./pong 
+cd ~/lab/cpp/ping/
+./sdl 
+ls
+./test 
+./sdl 
+vim Ball.cpp 
+vim Ball.h
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
 cd
-ls -la
-startx
+locate War
+cd /run/media/mk/bb/War\ Thunder/
 ls
-ls- l
-ls -la
-car .Xauthority 
-cat .Xauthority 
-cat /etc/X11/xinit/xinitrc
-vi .Xinitrc
-startx
+./run.exe 
 ls
-ls -la
-mv .Xinitrc .xinitrc
-startx
+chmod +x run
+./run.exe 
+./run
+ls
+chmod +x run
+ls
+sudo chmod +x run
+ls
+./run
+cd ..
+mv War\ Thunder/ ~/Documents/
+cd
+ls
+sync
+ls
+cd Documents/War\ Thunder/
+ls
+chmod +x run
+./run
+cd 
+cd gits/
+go get github.com/justjanne/powerline-go
+sudo dnf install go
+go get github.com/justjanne/powerline-go
+ls
+cd ~/go/bin/
+ls
+mv ~/.dotfiles/powerline/.powerline/
+mv powerline-go ~/.dotfiles/powerline/.powerline/
+mv -p powerline-go ~/.dotfiles/powerline/.powerline/
+mv  --parents powerline-go ~/.dotfiles/powerline/.powerline/
+mkdir ~/.dotfiles/powerline/.powerline/
+mkdir --parents ~/.dotfiles/powerline/.powerline/
+mv powerline-go ~/.dotfiles/powerline/.powerline/
+cd ~/.dotfiles/
+stow powerline
+cd
+vim .bashrc 
+. .bashrc 
+ls
+cd lab/cpp/
+ls
+mkdir altpong
+cd altpong/
+ls
+vim main.cpp
+locate SDL_ttf
+locate SDL | grep ttf
+sudo updatedb
+locate SDL | grep ttf
+sudo dnf search  SDL | grep ttf
+sudo dnf install SDL2_ttf
+sudo dnf install SDL2_ttf-devel
+vim main.cpp
+cd ..
+ls
+tmux attach-session 
+tmux 
+tmux attach-session 
+ls
+vim .config/nvim/init.vim 
+tmux 
+tmux attach-session 
 ls
 clear
-ls -la
-cd /mnt/ansible
-vi tasks/initial.yml 
-ls files/
-vi tasks/initial.yml 
-./run.sh 
-cat /dev/urandom 
+cd gits/
 ls
-cat /dev/urandom 
+cd cava/
 ls
-killall urxvt 
-cd /mnt/ansible
-vi tasks/initial.yml 
-./run.sh 
-sudo dnf install 
-pkill urxvt 
-ls
-vi tasks/initial.yml 
-./run.sh 
-ls files/`
-tar xf files/Documents.tar.xz ~/
-ssh mo@edraj.io
-chmod -r 740 ~/.s 
-chmod -r 740 ~/.shh
-chmod -r 740 ~/.ssh
-chmod 740 -r ~/.ssh
-chmod -R 740  ~/.ssh
-ssh mo@edraj.io
-ls -la ~/.ssh/
-chmod -R 600  ~/.ssh
-sudo chmod -R 600  ~/.ssh
-ssh mo@edraj.io
-vi tasks/initial.yml 
-vi tasks/i3.yml 
-sudo dnf install NetworkManager-wifi
-vi tasks/initial.yml 
-sudo dnf install freetype-freeworld
-vi tasks/initial.yml 
-dnf search freetype
-vi tasks/initial.yml 
-ls /etc/fonts/local.conf
-vi files/fontconfig.xml
-$ sudo dnf install --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-vi tasks/initial.yml 
-rpm -E %fedora
-vi vars.yml 
-vi tasks/initial.yml 
-./run.sh 
-vi tasks/initial.yml 
-vi tasks/i3.yml 
-vi tasks/initial.yml 
-./run.sh 
-rpm -E %fedora
+cd ..
 ls
 cd
 ls
-;s
+clea
+ls
+sl
 ls
 clear
-vi .config/alacritty/alacritty.yml 
-sudo dnf install hack-fonts
 ls
-cat /run/media/mk/3CB25DAD559DE46F//ansible/tasks/initial.yml 
-cat /run/media/mk/3CB25DAD559DE46F//ansible/tasks/initial.yml  | less
-reset
+ssh git@edraj.io
+git pull git@edrah.io gits/
+cd gits/
+git clone testing:git@edrah.io
+git clone git@edrah.io:testing
+ld
+ls
+git clone git@edraj.io:testing
+ls
+git clone git@edraj.io:x4
+ls
+cd x4/
+ls
+cd ansible/
+ls
+cat playbook.yml 
+vim playbook.yml 
+ls
+cat run.sh 
+cd ..
+ls
+cd ..
+ls
+cd lab/
+ls
+cd vagrant/
+ls
+vagrant up
+sudo vagrant up
+ls
+vagrant ssh
+sudo vagrant ssh
+cd ~/gits/x4/
+ls
+cd ansible/
+cat run.sh 
+function _update_ps1() {     PS1="$(~/.powerline/powerline-go -error $?)"; }
+if [ "$TERM" != "linux" ]; then     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"; fi
+ansible-playbook -i function _update_ps1() {
+    PS1="$(~/.powerline/powerline-go -error $?)"
+}
+if [ "$TERM" != "linux" ]; then     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"; fi
+ansible-playbook -i ansible-playbook  $@
+ansible-playbook -i 192.168.121.146  $@
+ansible-playbook playbook.yml -i 192.168.121.146  $@
+ls
+vim hosts
+ansible-playbook playbook.yml -i hosts $@
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+vagrant ssh
+sudo vagrant ssh
+sudo vagrant list-commands 
+sudo vagrant global-status 
+sudo vagrant ssh default
+cd ~/lab/vagrant/ && vagrant ssh && cd .
+cd ~/lab/vagrant/ && sudo vagrant ssh && cd .
+cd ~/gits/x4/
+ls
+cd ansible/
+ansible-playbook playbook.yml -i hosts $@
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+ansible -m ping -i hosts --ask-passs
+ansible -m ping -i hosts --ask-pass
+ansible -i hosts --ask-pass
+ansible -i hosts -m ping --ask-pass
+ansible hosts -m ping 
+ls hosts 
+cat hosts 
+ansible hosts -m ping --ask-pass
+vim hosts 
+ansible hosts -m ping --ask-pass
+ansible all -m ping --ask-pass
+ls
+ansible -i hosts all -m ping --ask-pass
+ping 192.168.121.146 
+ansible -i hosts -m ping --ask-pass
+ansible -i hosts bro -m ping --ask-pass
+vim hosts 
+ansible -i hosts bro -m ping --ask-pass
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+ls
+vim roles/redmine/tasks/main.yml 
+vim playbook.yml 
+vim roles/redmine/tasks/main.yml 
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+vim roles/redmine/tasks/main.yml 
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+vim roles/redmine/tasks/main.yml 
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+vim roles/redmine/tasks/main.yml 
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+vim roles/redmine/tasks/main.yml 
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+vim roles/redmine/tasks/main.yml 
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+vim roles/redmine/tasks/main.yml 
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+ls
+mkdir roles/redmine/meta
+cd roles/redmine/meta/
+vim ../tasks/main.yml 
+vim main.yml
+cd ..
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+ls
+cd  ..
+ls
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+vim roles/redmine/meta/main.yml 
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+ssh root@192.168.121.146
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+ls
+cd roles/redmine/tasks/
+ls
+vim main.yml 
+ssh root@192.168.121.146
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+ssh root@192.168.121.146
+sudo dnf install photorec
+sudo dnf search fetch
+sudo dnf install screenfetch
+screenfetch 
+ls
+sudo su -
+cp ~/.powerline/powerline-go   /etc/powerline
+sudo cp ~/.powerline/powerline-go   /etc/powerline
+cat ~/.bashrc 
+sudo vim /root/.bashrc
+sudo su -
+sudo vim /root/.bashrc
+sudo su -
+ls
+clear
+cd /run/media/mk/bb/
+cd /proc/1/task/1/fd/
 cd
-vi tasks/initial.yml 
-cd /mnt/ansible
-vi tasks/initial.yml 
-./run.sh 
-cat files/.bash_profile
-vi files/.bash_profile 
-./run.sh 
+ls
+cd
+brightnessctl s 20%-
+ssh root@192.168.121.146 
+cd
+cd gits/x4/ansible/roles/redmine/tasks/
+vim main.yml
+ls
+cd ..
+ls
+find . -name "Gem*"
+cd files/
+ls
+vim Gemfile.local 
+ls
+cd ..
+ls
+vim tasks/main.yml 
+cd
+ls
+cd .config/nvim/custom/
+ls
+vim customairline.vim 
+ls
+vim functions.vim 
+vim
+vim ~/.config/polybar/config
+vim ~/.tmux/statusline 
+vim ~/.config/nvim/init.vim 
+xclip -h
+xclip ❯
+xclip ""
+cd
+ls
+vim ~/.config/nvim/init.vim 
+vcd
+cd
+vim ~/.config/nvim/init.vim 
+rm -rf .local/share/nvim/swap/
+vim ~/.config/nvim/init.vim 
+vim
+vim .config/nvim/custom/customairline.vim 
 ls
 cd Documents/
 ls
-cd Personal_
-cd Personal_Linux/
+#cp -r War\ Thunder/ /run/media/mk/
+ls
+cd /run/media/mk/
 ls
 ls -la
-cd ..
+sudo mount /dev/mmcblk0 /run/media/mk/
+sudo umount /dev/mmcblk0
 ls
-ls -la
-find . -name "*res*"
-find . -name ".*res*"
-find . -name ".X"
-find . -name ".X*"
-find . -name ".x*"
+cd 
 ls
-ls Apps/
-ls Work/
-cd Personal_Linux/
-ks
+cp -r War\ Thunder/ /run/media/mk/bb/
+cp -r Documents/War\ Thunder/ /run/media/mk/bb/
+sync
+sudo umount /dev/mmcblk0p1 
 ls
-cat nord 
- sudo dnf groupinstall 'Fedora Workstation' --assumeno
- sudo dnf groupinstall 'Fedora Workstation' --assumeno | grep -i x
-cd ..
-ls
-cd ..
-ls
-cd /run/media/mk/3CB25DAD559DE46F/
-ls
-cd ansible
-vim tasks/tmux.yml 
-vi tasks/tmux.yml 
-vi vars.yml 
-./run.sh 
+sudo dnf install bscp
+sudo dnf search bspc
+bspc
+bspc -h
+man bspc
+bspc pointer -g move
+bspc pointer  -g resize_corner
+xdotool 
+tmux attach-session 
 tmux
-
-vi files/tmux.conf 
-vi files/.tmux.conf 
-./run.sh 
+vim .config/sxhkd/sxhkdrc 
+manxdotool 
+man xdotool 
+ xdotool getwindowfocus windowmove --relative %1 20
+ xdotool getwindowfocus windowmove --relative %1 -20
+ xdotool getwindowfocus windowmove --relative %1 -10
+ xdotool getwindowfocus windowmove --relative %1 10
+ xdotool getwindowfocus windowmove --relative %1 10 10
+ xdotool getwindowfocus windowmove --relative %1 10 -10
+fjsfjssafjh
+jfkdsjflka
+hfkhsfdj
+'ldhflahfupo43uwe'jf
+ahf
+hsahf
+ahf'sakhflsahf
+ajfhfjdsahq
+fah1ha
 tmux 
-cat files/alacritty.yml 
-vi files/alacritty.yml 
-reset 
-tmux 
-~/.tmux/themes/nord-tmux/nord.tmux 
-htop 
-cd /mnt/ansible
-vi tasks/initial.yml 
-ls ~/.config/alacritty/
-./run.sh 
-vi files/alacritty.yml
-./run.sh 
-ls
-ls files/
-vi files/alacritty.yml
-vi tasks/initial.yml 
-vi files/alacritty.yml
-./run.sh 
-cd
-clear
-cat .bash_profile 
-cd /run/media/mk/3CB25DAD559DE46F/
-ls
-cd ansible
-ls
-cd files/
-vi .bash_profile
-vi ../tasks/i3.yml 
-vi ../tasks/i3.yml
-cd
-cd /run/media/mk/3CB25DAD559DE46F/ansible
-./run.sh 
-vi ../tasks/i3.yml
-vi tasks/i3.yml
-vi tasks/initial.yml 
-./run.sh 
-ls
-tmux 
-sudo mount /dev/sdb /mnt
-cd /mnt/ansible
-vi tasks/i3.yml 
-./run.sh 
-cd
-startc
-startx
-:q
-history | grep Work
-sudo dnf groupinstall 'Fedora Workstation' 
-sudo dnf groupinstall 'Fedora Workstation' | less
-sudo dnf groupinstall 'Fedora Workstation' --assumeno | less
-sudo dnf groupinstall 'Xfce Desktop'
-rofi -show run -font 'System San Francisco Display Regular 12' -opacity "75" -lines 6 -eh 2 -line-margin 5 -hide-scrollbar -width 100 -padding 625 -color-window "#263238, #263238, #263238" -color-normal "#263238, #263238, #FFFFFF, #263238, #9575CD" -color-active "#263238, #263238, #FFFFFF, #263238, #9575CD" -color-urgent "#263238, #263238, #FFFFFF, #263238, #9575CD"    
-vi .Xresources
-xrdb .Xresources 
-compton
-compton -h
-compton -h | less
-compton -D
-compton -D 10
-compton -D 110
-compton -D 1000
-lz
-cd /run/media/mk/3CB25DAD559DE46F/ansible
-ls
-vi tasks/i3.yml 
-./run.sh 
-vi tasks/i3.yml 
-./run.sh 
-reboot 
-startx
-vi .Xresources 
-xrdb .Xresources 
-xfsettingsd 
- xfsettingsd --sm-client-disable &
-fg
-xrandr 
-sudo dnf install lightdm
-systemctl enable lightdm.service
-dm-tool
-dm-tool --help
-dm-tool lock 
- lightdm --test-mode --debug
-sudo dnf search xeph
-sudo dnf install xorg-x11-server-Xephyr.x86_64
- lightdm --test-mode --debug
-sudo dnf install lightdm-devel
-sudo dnf search lightdm
-sudo dnf install lightdm-gtk.x86_64 lightdm-gtk-greeter-settings.noarch
-sudo dnf search bash | grep com
-sudo dnf remove lightdm
-vi /etc/lightdm/lightdm.conf
-reboot 
-dm-tool lock 
- file /etc/systemd/system/display-manager.service
-vi .xinitrc 
-sudo dnf install sway
-vi .xinitrc 
-ls
-sudo dnf install lxappearnce
-ls
-ls -la
-cat .config/i3/config 
-ls
-cd
-ls
-ls -la
-clear
-rofi
-rofi --shoe
-rofi --show
-vi .config/i3/config 
-"rofi -show r
-
-"
-rofi -show r
-rofi -show 
-rofi -show run
-vi .config/i3/config 
-locate i3status
-sudi locate i3status
-locate i3status
-sudo locate i3status
-sudo updatedb
-sudo locate i3status
-vim /etc/i3status.conf 
-vi /etc/i3status.conf 
-sudo vi /etc/i3status.conf 
-vi .xinitrc 
-exit
-killall sway
-cd /run/media/mk/3CB25DAD559DE46F/ansible
-ls
-ps aux | grep nvim
-ls
-ls files/
-mkdir ~/bin
-cp files/{ctrl,lock}.sh
-cp files/{ctrl,lock}.sh ~/bin/
-ls
-cd
-cd bin/
-ls
-lock.sh
-i3lock
-sudo dnf install i3lock
-lock.sh
-i3lock 
-cat lock.sh 
-cat ctrl.sh 
-ls
-cd /run/media/mk/3CB25DAD559DE46F/ansible
-ls
-ls files/ctrl.sh 
-cat files/ctrl.sh 
-cat files/lock.sh 
-sudo dnf install vim-nerdtree
-cava 
-reset
-sudo dnf install dnf install alsa-lib-devel ncurses-devel fftw3-devel pulseaudio-libs-devel libtool
-dnf install alsa-lib-devel ncurses-devel fftw3-devel pulseaudio-libs-devel libtool
-sudo dnf install alsa-lib-devel ncurses-devel fftw3-devel pulseaudio-libs-devel libtool
-cava 
-clear
-reset
-vi /etc/i3status.conf 
-sudo vi /etc/i3status.conf 
-cd /run/media/mk/3CB25DAD559DE46F/ansible
-vi vars.yml 
-vi tasks/nvim.yml 
-./run.sh 
-nvim 
-nvim ~/.config/nvim/init.vim 
-nvim 
-nvim ~/Documents/Personal_Linux/vimwiki/index.wiki 
-sudo dnf install cmus
-sudo dnf install cava
-sudo dnf search cava
-sudo dnf install /tmp/mozilla_mk0/cava-0.5.0-12.1.x86_64.rpm 
-cava
-reset
-ls
 cmus
-cava
-sudo dnf remoce cava
-sudo dnf remove cava
-ls
-cd lab/
-ls
-mkdir vagrant
-mv Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box vagrant/
-sudo dnf install vagrant 
-ls
-cd vagrant/
-vagrant init 
-cat Vagrantfile 
-ls
-vagrant box add  Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box 
-vagrant box add  Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box  --name fedora
-nvim Vagrantfile 
-vagrant box add  Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box  --name fedora
-vagrant up
-sudo vagrant up
-sudo dnf install libvirt
-sudo vagrant up
-sudo systemctl start libvirt
-sudo systemctl start libvirtd.service 
-sudo vagrant up
-nvim Vagrantfile 
-sudo vagrant up
-ls
-vagrant box list 
-vagrant box add  Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box  --name test/fedora
-nvim Vagrantfile 
-vagrant box add  Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box  --name test/fedora
-nvim Vagrantfile 
-sudo vagrant up
-rm -rf Vagrantfile 
-vagrant box add  Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box  --name tfedora
-vagrant box add  Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box  --name fedora
-vagrant box add fedora Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box
-vagrant init fedora
-sudo vagrant up
-mv Fedora-Cloud-Base-Vagrant-26-1.5.x86_64.vagrant-libvirt.box fedora.box
-vagrant box add  fedora.box  --name fedora
-vagrant box add  fedora.box  --name fedora --force
-vagrant init fedora
-rm -rf Vagrantfile 
-vagrant init fedora
-vagrant up
-sudo vagrant up
-nvim Vagrantfile 
-vagrant up
-sudo vagrant up
-nvim Vagrantfile 
-sudo vagrant up
-ls
-ls -la
-cd .vagrant/
-ls
-cd machines/
-ls
-cd default/
-ls
-cd k
-cd libvirt/
-ls
-ls -la
-cd
-cd lab/vagrant/
-rm Vagrantfile 
-vagrant init fedora fedora.box
-vagrant up
-sudo vagrant up
-ls
-cat Vagrantfile 
-nvim ~/.bashrc 
-. ~/.bashrc 
-tmux 
-sudo dnf install gnome-documenrs
-sudo dnf install gnome-documents
-gnome-documents 
-gnome-documents Documents/Personal_Linux/Learn\ Python\ The\ Hard\ Way\,\ 3rd\ Edition\ .pdf 
-sudo dnf install Evince
-sudo dnf install evince
-sudo dnf update
-lear
-clea
-clear
-cd .weechat/
-ls
-cd python/
-ls
-wget https://weechat.org/files/temp/theme/theme.py
-ls
-cat theme.py 
-ls
-mv theme.py ..
-ls
-cd ..
-ls
-cd script/
-ls
-cd ..
-l
-mv theme.py python/
-cd ,,
-cd ..
-mkdir dotfiles
-cd dotfiles/
-ls
-stow 
-sudo dnf install stow
-stow bash
-ls
-cd .
-cd ..
-ls
-mv dotfiles/ .dotfiles
-cd .dotfiles/
-git init .
-echo "This is a dotfile." > mydotfile
-git add mydotfile 
-git commit -m 'not a dot file'
-git config --global user.name "KmBKeef"
-git commit -m 'not a dot file'
-git config --global user.email "you@example.com"
-git config --global user.email "mo.kefah@protonmail.com"
-git commit -m 'not a dot file'
-git push 
-git push dotfiles
-git push --set-upstream dotfiles master
-cd
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
-sudo ssh-add ~/.ssh/id_rsa
-sido dnf install ssh-add
-sudo dnf install ssh-add
-sudo dnf search ssh | grep add
-ssh-add 
-sudo ssh-add /home/mk/.ssh/id_rsa
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
-chmod 700 ~/.ssh; chmod 600 ~/.ssh/*
-ssh-add ~/.ssh/id_rsa
-cd .dotfiles/
-git push 
-git push dotfiles
-git push --set-upstream dotfiles master
-git git@edraj.io
-git clone git@edraj.io
-ssh mo@edraj.io
-mkdir gits
-cd gits/
-git clone https://github.com/karlstav/cava.git
-cd cava/
-ls
-make
-./autogen.sh 
-make
-ks
-ls
-./configure 
-make
-ls
-./cava 
-cava -h
-./cava -h
-./cava
-sudo make install
 cava 
-cd ~/.config/cava/
+ls
+hello
+clear
+htop 
+clear
+ls
+tmux attach-session 
+nvim .config/sxhkd/sxhkdrc
+ls
+rm -rf go/
+ls
+cd lab/vagrant/
+vagrant up
+sudo vagrant up
+sudo vagrant  ssh
+cd gits/x4/
+ls
+cd ansible/
+ls
+vim playbook.yml 
+vim roles/redmine/meta/main.yml 
+ls
+cd
+cd gits/
+ls
+cd 21st-century-pong/
+ls
+./pong 
+vim
+sudo dnf search  trin
+sudo dnf search  tron
+sudo dnf search  tron | grep game
+sudo dnf install  gltron
+cd Documents/War\ Thunder/
+./run
+ls
+tmux attach-session
+cd gits/x4/
+cd ansible/
+ls
+ansible-playbook playbook.yml -i hosts $@ --ask-pass
+sudo mount /dev/sdb /run/media/mk
+sudo mount /dev/sdb /mnt/
+sudo umount /dev/sdb /mnt/
+sudo umount /dev/sdb 
+sudo mount /dev/sdb /mnt/
+chkdsk
+chsh 
+vagrant up
+sudo vagrant up
+sudo vagrant ssh
+cd Documents/War\ Thunder/
+./run
+~/Documents/War\ Thunder/run
+tmux attach-session 
+tmux
+nmcli c up OnePlus\ 3T
+nmcli c up OnePlus\ 3T 
+nmcli c up OnePlus
+nmcli connection 
+cd lab/cpp/ping/
+ls
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sd
+./sdl
+sudo openvpn Downloads/vpnbook-euro2-tcp80.ovpn 
+sudo dnf install NetworkManager-gnome
+sudo dnf search NetworkManager
+sudo dnf search NetworkManager | grep gnome
+sudo dnf search NetworkManager | grep gui
+sudo dnf search NetworkManager | grep -i gui
+nm-applet 
+nm-connection-editor 
+sudo openvpn Downloads/vpnbook-euro2-udp53.ovpn 
+sudo openvpn Downloads/vpnbook-euro2-udp25000.ovpn 
+cd lab/cpp/ping/
+ls
+rm sdl 
+rm test 
 ;s
 ls
-nvim config 
-cava 
-cava -p ~/.config/cava/config 
-nvim config 
-cava -p ~/.config/cava/config 
-q
-nvim config 
-cava 
-nvim config 
-cava 
-nvim config 
-cava 
-nvim config 
-cava 
-cava -p ~/.config/cava/config 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Paddle.h 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.h
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+vim Ball.h
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+.s/d
+./sdl 
+vim Ball.cpp 
+vim Paddle.h 
+vim main.cpp 
+vim Ball.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.h
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+vim main.cpp 
+vim Screen.
+vim Screen.h 
+vim Paddle.h
+vim Paddle.cpp 
+vim main.cpp 
+./sdl 
+vim Ball.h 
+vim Ball.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sd
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+sudo dnf install networkmanager-openvpn
+dnf search  networkmanager
+dnf search  networkmanager | grep open
+sudo dnf install NetworkManager-openvpn
+nmcli agent he
+nmcli agent help 
+sudo yum install openvpn easy-rsa
+sudo su -
+cd ~/Downloads/
 ls
-cava 
-cmus
-ranger 
+unzip VPNBook.com-OpenVPN-Euro1.zip 
+ls
+openvpn vpnbook-euro1-tcp443.ovpn 
+sudo openvpn vpnbook-euro1-tcp443.ovpn 
+ls
+unzip VPNBook.com-OpenVPN-DE1.zip 
+ls
+sudo openvpn vpnbook-de233-tcp443.ovpn 
+ls
+unzip VPNBook.com-OpenVPN-Euro2.zip 
+sudo openvpn vpnbook-euro2-tcp443.ovpn 
+cd ~/lab/cpp/ping/
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+cd lab/vagrant/.vagrant/
+cd ..
+sudo vagrant up
+sudo vagrant halt
 tmux attach-session 
-weechat
-vim
-vim hosts
-vagrant ssh
-sudo vagrant ssh
-ssh 192.168.121.146
-vim hosts
-ansible all -i hosts -m ping
-sudo ansible all -i hosts -m ping
-ls ~/.ssh/known_hosts 
-sudo ls ~/.ssh/known_hosts 
-sudo cat ~/.ssh/known_hosts 
-sudo cat ~/.ssh/id_rsa.pub 
-sudo ansible all -i hosts -m ping --askpass
-ansible -h
-sudo ansible all -i hosts -m ping --ask-sudo-pass
-vagrant ssh
-sudo vagrant ssh
-sudo ansible all -i hosts -m ping --ask-pass
-sudo vagrant ssh
-sudo ansible all -i hosts -m ping --ask-pass
-ansible-playbook --private-key=~/.vagrant.d/insecure_private_key -u vagrant -i .vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory playbook.yml
-vagrant provision 
-sudo vagrant provision 
-ansible-playbook --private-key=~/.vagrant.d/insecure_private_key -u vagrant -i .vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory playbook.yml
-sudo ansible all -i hosts -m raw "sudo dnf install python"
-sudo ansible all -i hosts -m raw "sudo dnf install python" --ask-pass
-sudo ansible all -i hosts -m ping --ask-pass
-sudo ansible all -i hosts -m raw "sudo dnf install python" --ask-pass
-sudo ansible all -i hosts -m raw 'sudo dnf install python' --ask-pass
-sudo ansible all -i hosts -e 'sudo dnf install python' --ask-pass
-sudo ansible all -i hosts -a 'sudo dnf install python' --ask-pass
-vagrant ssh
-sudo vagrant ssh
-sudo ansible box -a 'sudo dnf install python' --ask-pass
-sudo ansible box -i hosts -a 'sudo dnf install python' --ask-pass
-sudo ansible box -i hosts -m raw -a 'sudo dnf install python' --ask-pass
-sudo ansible box -i hosts -m raw -a 'sudo dnf install python -y' --ask-pass
-sudo ansible box -i hosts -m raw -a 'sudo dnf install libselinux-python' --ask-pass
-sudo ansible box -i hosts -m raw -a 'sudo dnf install libselinux-python -y' --ask-pass
-nvim
-claer
+vtop 
+tmux attach-session 
+tune2fs 
+cd gits/x4/
+ls
+git checkout -b selinuxFix
+git add *
+git commit -m 'selinux: needs .te file'
+git push origin selinuxFix 
+cd 
+ls
 clear
-ls -la
-cd ..
+lock.sh 
+cd ~/lab/cpp/ping/
+;s
 ls
-cd ..
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim main.cpp 
+./sdl 
+vim Ball.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+vim Ball.h
+vim Ball.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+tmux attach-session 
+tmux 
+vim .config/sxhkd/sxhkdrc 
+i3-msg 
+tmux attach-session 
 ls
-mv Documents/Personal_Linux/mystuff/ ~/lab/
-cd lab/
+cd gits/
 ls
-cd mystuff/
+cd ~/lab/cpp/
 ls
-vim ex30.py
-python ex3
-python ex30.py 
-vim ex31.py
-python ex31.py 
-vim ex32.py
-python ex32.py 
-vim ex32.py
-python ex32.py 
-vim ex32.py
-vim ex33.py
-python ex33.py 
-vim ex35.py
-python ex35.py 
-vim ex35.py
-python ex35.py 
-vim ex35.py
-python ex35.py 
-xfsettingsd 
-sudo dnfhistory 
-sudo dnf history 
-sudo dnf history  undo 19 15
-sudo dnf history  undo 15
-sudo dnf history  
-sudo dnf history  undo 19
-man dnf hisroty
-sudo dnf install weechat
-sudo dnf install lxappearence
-sudo dnf install lxappearnce
-sudo dnf search lxappear
-sudo dnf search lxappearance
-sudo dnf install lxappearance
-cd
-sudo dnf remove xf*
-sudo dnf list installed
-sudo dnf list installed | grep xf
-reboot 
-vim
-vim .config/i3/
-compton
-vim .config/i3/
-cd .dotfiles/
+cd sidewalk/
 ls
-git push 
-git remote add .dotfiles
-git pull
-cd ..
+make sdl
+make hello
+rm sdl bit
+make hello
+make sdl
+make bitshift.cpp
+cmake
+cmake bitshift.cpp 
+cmake .
+tmux attach-session 
+sudo dnf update
+sleep 1 && echo "hello"
+sleep 1 && firefox
+tmux attach-session 
+cd lab/cpp/
+cd ping/
 ls
-git pull https://github.com/KmBKeef/dotfiles
-git clone  https://github.com/KmBKeef/dotfiles
-mv dotfiles/ .dotfiles/
-cd .dotfiles/
+vim Ball.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+./sdl 
 ls
-git add mydotfile 
-mv dotfiles/ ..
-cd ..
+vim Paddle.cpp 
+vim Paddle.cpp -O Paddle.h 
+vim Paddle.cpp -O Paddle.h -O Ball.cpp 
+vim main.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim main.cpp 
+vim Paddle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim Paddle.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cq
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+./sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim Ball.cpp 
+g++ main.cpp  Screen.cpp Screen.h Ball.cpp Ball.h Paddle.h Paddle.cpp -lSDL2 -o sdl 
+vim Ball.cpp 
+vim ~/.config/sxhkd/sxhkdrc 
 ls
-rm .dotfiles/
-rm -rf .dotfiles/
-mv dotfiles/ .dotfiles/
+clear
 ls
-cd .dotfiles/
-ls
-echo "This is a dotfile." > mydotfile
-git add mydotfile 
-git commit -i 'not a dotfile'
-git commit -i -m 'not a dotfile'
-git commit -m 'not a dotfile'
-git push 
-ls
-cd ..
-ls
-cd ..
-ls
-cd .dotfiles
-cd mk/.dotfiles/
-mkdir bash
-mkdir vim tmux 
-ls
-mv ~/.bash* bash/
-mv ~/.tmux* bash/
-cd ..
-sl
-ls
-ls -l .tmux
-sudo chown mk:mk -R ~/.tmux/ 
-cd .dotfiles/
-mv ~/.tmux* bash/
-mv bash/.tmux* ../tmux
-ls
-mv bash/.tmux* tmux/
-ls
-mv vim/ nvim
-mv ~/.config/nvim/* nvim/
-mkdir i3
-mv ~/.config/i3/* i3/
-ls
-tree
-cd ..
-stow nvim
-cd .dotfiles/
-stow nvim
-stow tmux/
-stow bash
-stow i3/
-ls
-cd ..
-ls
-nvim
-cd ..
-ls
-cd mk/.dotfiles/
-ls
-mv nvim/ i3/ ~/.config/
-mv ~/.config/ .
-ls
-mv ~/.config/ .
-ls
-ls -la
-stow .config/
-cd ..
-ls
-cd ..
-ls
-cd mk/.dotfiles/
-ls
-mkdir config
-mv .config/ config/
-ls
-stow config/
 cd
 ls
-rm  ls -a
-ls -a
-rm abrt cmus config gconf imsettings init.vim libreoffice pulse ranger xfce4 user-dirs.* yumex-dnf nvim nautilus  eog ibus htop cava Thunar gtk-3.0 goa-1.0 dconf  mimeapps.list 
+clear
+.tmux/themes/nord-tmux/nord.tmux 
 ls
-rm i3 alacritty plugged 
-ls
-cd .dotfiles/
-ls
-rm alacritty/
-rm -rf alacritty/
-cd config/.config/
-ls
-rm xfce4/
-rm -rf xfce4/
-cat gtk-3.0/settings.ini 
-cd ,,
-cd ..
-ls
-ls -la
-cd .config/
-ls
-cd imsettings/
-ls
-ls -la
-cd ..
-ls
-rm imsettings/
-rm -r imsettings/
-ls
-ls dconf/
-cat dconf/user 
-6c
-ls
-mv dconf/user ~/.config/
-ls goa-1.0/
-rm goa-1.0/
-rm -r goa-1.0/
-ls abrt/
-rm abrt/
-rm -r abrt
-ls ranger/
-ls htop/
-ls ranger/history 
-cat ranger/history 
-cat ranger/bookmarks 
-rm ranger/bookmarks 
-rm ranger/tagged 
-ls
-ls i3/config 
-ls ibus/
-ls ibus/bus/9c38670a96af46be95f71466ac4c2bec-unix-0 
-cat ibus/bus/9c38670a96af46be95f71466ac4c2bec-unix-0 
-mv ibus/ ~/.config/
-mv -f ibus/ ~/.config/
-mv -F ibus/ ~/.config/
-mv -m ibus/ ~/.config/
-mv --help
-touch abrt
-mv -u ibus/ ~/.config/
-mv -i ibus/ ~/.config/
-rm -r ~/.config/abrt 
-mv -i ibus/ ~/.config/
-rm -r ~/.config/ibus/
-mv -i ibus/ ~/.config/
-mv  ibus/ ~/.config/
-ls
-cat user
-rm user user-dirs.dirs user-dirs.locale  yumex-dnf/ Thunar/ eog/ 
-rm -rf user user-dirs.dirs user-dirs.locale  yumex-dnf/ Thunar/ eog/ 
-cat gconf/
-ls gconf/
-rm -rf gconf/
-ls
-ls htop/
-cat htop/htoprc h
-ls
-rm -r htop/
-rm -r libreoffice/
-rm -r mimeapps.list 
-ls
-git add *
-cd..
-cd ..
-ls
-cd ..
-ls
-git add *
-git commit -m 'this is'
-git push 
-ssh -T git@github.com
-git push 
-ssh -T git@edraj.io
-cd
-eval $(ssh-agent)
-ssh-add 
-ssh-add -k
-ssh-add -L
-ssh-add -K
-cd .dotfiles/
-git puc
-git push 
-git pull 
-ls
-git push 
-git remote set-url origin git@github.com:KmBKeef/dotfiles
-git push 
-vim README.md
-git add README.md 
-git commit -m 'stow bro'
-git push 
-cd ..
-ls
-sudo dnf install nautilus
-eog 
-sudo dnf install nautilus
-mkdir -p ~/.local/share/fonts
-cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20for%20Powerline%20Nerd%20Font%20Complete.otf
-sudo dnf install fontforge
-vf
-cd
-nvim
-vim .dotfiles/config/.config/nvim/init.vim 
-LS
-setleds -D -caps
-setleds -caps
-python -c 'from ctypes import *; X11 = cdll.LoadLibrary("libX11.so.6"); display = X11.XOpenDisplay(None); X11.XkbLockModifiers(display, c_uint(0x0100), c_uint(2), c_uint(0)); X11.XCloseDisplay(display)'
-sudo dnf install  xdotool
- xdotool key Caps_Lock
-cd bin/
-vim togglecaps
-chmod +x togglecaps 
-togglecaps 
-ls
-cd ..
-ls
-mv bin/ .dotfiles/bash/
-cd .dotfiles/ && stow bash
-ks
-cd 
-ls
-ls -la
-cd ..
-cd 
-vim .dotfiles/bash/bin/lock.sh 
-.dotfiles/bash/bin/lock.sh 
-cd .dotfiles/ && stow bash && cd
-vim .config/i3/config 
-cat .dotfiles/config/.config/i3/config | grep lock
-cat .dotfiles/config/.config/i3/config | grep hack
-cat .config/alacritty/alacritty.yml 
 vim .config/alacritty/alacritty.yml 
 ls
-clear 
+clear
+vim .tmux.conf 
+sudo vim .tmux.conf 
+cd .config/polybar/
+ls
+mv config.notold
+mv config config.notold
+vim config
+cd
+killall polybar 
+polybar statusline
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/bspwm/bspwmrc 
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .tmux/statusline 
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+vim .config/alacritty/alacritty.yml 
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+feh --bg-fill Pictures/wall.jpg 
+polybar statusbar
+vim .config/alacritty/alacritty.yml 
+polybar statusbar
+vim .config/polybar/config
+polybar statusbar
+vim .config/bspwm/bspwmrc 
+ls
+vim .config/bspwm/bspwmrc 
+vim .config/polybar/polypanel 
+vim .config/polybar/config
+.config/bspwm/bspwmrc 
+killall polybar 
+./.config/bspwm/bspwmrc 
+ls
+vim .config/alacritty/alacritty.yml 
+killall polybar 
+polybar statusbar
+fi
+fire
+firefox 
+tmux 
+tmux attach-session 
+vim .bashrc 
+echo $TMUX
+vim .bashrc 
+vim bin/tmux
+vim .config/bspwm/bspwmrc 
 ls
 clear
-nvim
-q
-mpv --vo tct
-sudo dnf install mpv
-mpv --vo tct
-mpv --vo /home/mk/Videos/SillconValley/Si.va.s02e08.720p.x265.HEVC.AAR.UTR.www.maxmkv.net.mkv 
-mpv -h
-man mpv
-mpv -o /home/mk/Videos/SillconValley/Si.va.s02e08.720p.x265.HEVC.AAR.UTR.www.maxmkv.net.mkv 
-mpv --o /home/mk/Videos/SillconValley/Si.va.s02e08.720p.x265.HEVC.AAR.UTR.www.maxmkv.net.mkv 
-man mpv
-cd Videos/
-ls
-cd Linux/
-ls
-mpv output.mkv 
-mpv -o output.mkv 
-mpv --vo output.mkv 
-mpv --vo
-man mpv
-sudo dnf install tct
-sudo dnf sear
-mpv --vo tct
-mpv --vo rpi
-mpv --vo mesa
-mpv --vo help
-mpv --vo helptxt
-mpv --vo tct
-mpv --vo helptxt
-mpv --vo help
-ls
-cat /dev/urandom 
-:q
-cat /dev/urandom 
-l
-cd Downloads/Instantly_Better_Vim_2013/
-ls
-open Notes.pdf 
-ranger .
- mpv --vo tct https://www.youtube.com/watch?v=qI8eAlteW9E
-mpv --vo tct https://www.youtube.com/watch?v=iko4s3CfBi0
+vim .config/bspwm/bspwmrc 
+bspwm -v
+tmux 
+bspc pointer -g resize_corner

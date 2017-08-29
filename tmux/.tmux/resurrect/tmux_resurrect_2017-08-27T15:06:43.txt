@@ -1,0 +1,6 @@
+pane	0	1	:bash	1	:*	1	:/home/mk	1	nvim	:nvim .config/sxhkd/sxhkdrc
+pane	0	1	:bash	1	:*	2	:/home/mk	0	bash	:
+pane	0	2	:bash	0	:-	1	:/home/mk	1	bash	:
+window	0	1	1	:*	fca8,80x23,0,0[80x17,0,0,2,80x5,0,18,3]
+window	0	2	0	:-	ae61,80x23,0,0,4
+state	0	

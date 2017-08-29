@@ -1,0 +1,6 @@
+pane	0	1	:bash	0	:-	1	:/home/mk	1	nvim	:nvim .tmux/statusline
+pane	0	1	:bash	0	:-	2	:/home/mk	0	bash	:
+pane	0	2	:bash	1	:*	1	:/home/mk	1	bash	:
+window	0	1	0	:-	48c8,188x49,0,0{94x49,0,0,0,93x49,95,0,1}
+window	0	2	1	:*	d481,188x49,0,0,4
+state	0	
