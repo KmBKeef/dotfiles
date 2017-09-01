@@ -1,0 +1,8 @@
+pane	0	1	:bash	1	:*	1	:/home/mk	1	bash	:
+pane	0	2	:bash	0	:-	1	:/home/mk	1	bash	:
+pane	24	1	:bash	1	:*	1	:/home/mk/gits/21st-century-pong/src	0	nvim	:nvim utilities.h
+pane	24	1	:bash	1	:*	2	:/home/mk/lab/cpp/pong	1	nvim	:nvim utilities.h
+window	0	1	1	:*	b43d,117x32,0,0,0
+window	0	2	0	:-	b43e,117x32,0,0,1
+window	24	1	1	:*	6992,145x41,0,0{72x41,0,0,28,72x41,73,0,32}
+state	24	

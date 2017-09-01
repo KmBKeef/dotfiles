@@ -22,12 +22,13 @@
 ; background = #424242
 background = #2E3440
 foreground = #759fbc
+foregroud = #6B756C
 ; foregroud = #00FA8E
 alert = #dd5837
 poweritems = #9dd583
 
 [bar/statusbar]
-# monitor = eDP1
+ monitor = eDP-1
 width = 100%
 height = 40
 radius = 0.0
@@ -52,8 +53,9 @@ font-0 = Interface:pixelsize=14;2
 font-1 = FontAwesome:pixelsize=14;2
 
 modules-left = bspwm
-modules-center = xwindow
-modules-right = wlan battery volume powermenu
+modules-center = date
+;modules-right = date
+ modules-right = wlan battery volume powermenu
 
 wm-restack = bspwm
 ; tray-position =
@@ -92,8 +94,8 @@ label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
 label-empty = %name%
-label-empty-foreground = ${colors.foreground}
 label-empty-padding = 2
+label-empty-foreground = ${colors.foregroud}
 
 [module/i3]
 type = internal/i3
@@ -122,7 +124,10 @@ label-urgent-background = ${colors.alert}
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:120:...%
+; label = Window: %title:0:120:...%
+label = %title%
+; format-foreground = #5798679
+; label-foreground = #5798679
 
 [module/wlan]
 type = internal/network
@@ -152,6 +157,7 @@ format-volume = <ramp-volume>
 format-volume-padding = 3
 label-muted = 
 label-muted-padding = 3
+label-muted-foreground = ${colors.foreground}
 
 ramp-volume-0 = 
 ramp-volume-1 = 
@@ -176,8 +182,11 @@ ramp-capacity-0-foreground = ${colors.alert}
 ramp-capacity-1 = 
 ramp-capacity-1-foreground = ${colors.alert}
 ramp-capacity-2 = 
+ramp-capacity-2-foreground = ${colors.foreground}
 ramp-capacity-3 = 
+ramp-capacity-3-foreground = ${colors.foreground}
 ramp-capacity-4 = 
+ramp-capacity-4-foreground = ${colors.foreground}
 
 [module/powermenu]
 type = custom/menu
@@ -219,6 +228,38 @@ type = custom/script
 interval = 10
 format = <label>
 exec = ~/.config/polybar/revolutionary
+
+[module/pomodoro]
+type = custom/script
+; Use pomodoro glyphs in Nerd fonts
+exec = pymodoro --break-prefix "" --pomodoro-prefix "" --pomodoro "" --empty "" --break "" --length 5
+; Use default symbols
+; exec = pymodoro --length 5e
+label = %output%
+tail = true
+interval = 0
+; Start or reset the timer
+click-left = if [ -e ~/.pomodoro_session ]; then rm ~/.pomodoro_session; else echo "25 5" > ~/.pomodoro_session; fi
+; Increase pomodoro time
+click-right = echo "$((`cut .pomodoro_session -d ' ' -f 1`+5)) 5" > .pomodoro_session
+; Reduce pomodoro time
+click-middle = echo "$((`cut .pomodoro_session -d ' ' -f 1`-5)) 5" > .pomodoro_session
+
+[module/date]
+type = internal/date
+interval = 1
+
+date =
+date-alt = " %Y-%m-%d"
+
+time = %l:%M %p
+time-alt = %l:%M %p
+
+format-prefix = 
+format-prefix-foreground = ${colors.foregroud}
+;format-underline = #fff
+
+label = %date% %time%
 
 [settings]
 screenchange-reload = true

@@ -2,12 +2,12 @@
 
 sxhkd &
 xsetroot -cursor_name left_ptr &
-compton --conf /home/mk/.config/compton/comptom.conf &
-feh --bg-fill Pictures/wall.jpg &
-setxkbmap us,ar -option 'grp:alt_shift_toggle' &
+# compton --conf /home/mk/.config/compton/comptom.conf &
+feh --bg-fill Pictures/back.jpg &
+# setxkbmap us,ar -option 'grp:alt_shift_toggle' &
 
-bspc config border_width         2
-bspc config window_gap          12
+bspc config border_width         0
+bspc config window_gap           0
 bspc config top_padding 35
 
 # bspc config active_border_color 1
@@ -21,6 +21,7 @@ bspc config history_aware_focus  true
 # bspc monitor -d Tmux Web NoTmux Games stuff
 
 bspc monitor -d    
+# bspc monitor -d 
 
 # bspc rule -a Gimp desktop=^8 state=floating follow=on
 # bspc rule -a Chromium desktop=^2
@@ -28,7 +29,7 @@ bspc monitor -d    
 # bspc rule -a Kupfer.py focus=on
 # bspc rule -a Screenkey manage=off
 
-bspc rule -a chromium-browser -o desktop=^2
+# bspc rule -a chromium-browser -o desktop=^2
 
 ctrl.sh &
 polybar statusbar &

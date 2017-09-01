@@ -1,0 +1,70 @@
+{
+  "prefs": {
+    "downloadPath": "/home/mk",
+    "isFileHandler": false,
+    "openExternalPlayer": false,
+    "externalPlayerPath": null,
+    "startup": false
+  },
+  "torrents": [],
+  "version": "0.18.0",
+  "telemetry": {
+    "userID": "4c3aaf9b4b6249da7db532b0cc3ee6ad8ba77d42dcdb7704cf8ca9a428395f12",
+    "uncaughtErrors": [],
+    "playAttempts": {
+      "minVersion": "0.18.0",
+      "total": 0,
+      "success": 0,
+      "error": 0,
+      "external": 0,
+      "abandoned": 0
+    },
+    "version": "0.18.0",
+    "timestamp": "2017-08-31T23:39:46.482Z",
+    "localTime": "02:39:46 GMT+0300 (+03)",
+    "screens": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "scaleFactor": 1
+      }
+    ],
+    "system": {
+      "osPlatform": "linux",
+      "osRelease": "Linux 4.12.8-300.fc26.x86_64",
+      "architecture": "x64",
+      "systemArchitecture": "x64",
+      "totalMemoryMB": 32768,
+      "numCores": 8
+    },
+    "torrentStats": {
+      "approxCount": 1,
+      "approxSizeMB": 512,
+      "byStatus": {
+        "new": {
+          "approxCount": 0,
+          "approxSizeMB": 0
+        },
+        "downloading": {
+          "approxCount": 1,
+          "approxSizeMB": 512
+        },
+        "seeding": {
+          "approxCount": 0,
+          "approxSizeMB": 0
+        },
+        "paused": {
+          "approxCount": 0,
+          "approxSizeMB": 0
+        }
+      }
+    },
+    "approxNumTorrents": 1
+  },
+  "bounds": {
+    "height": 1017,
+    "width": 976,
+    "x": 14,
+    "y": 49
+  }
+}

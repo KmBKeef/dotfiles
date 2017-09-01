@@ -1,4 +1,4 @@
-version:i=7142
+version:i=7181
 
 content{
   customDifficulty:i64=190578314555451351
@@ -6,7 +6,7 @@ content{
   profile{
     globalSaveVersion:i=0
     saveVersion:i=2
-    countryId2:i=2
+    countryId2:i=4
     seenCampaignIntro:i=0
     firstFreeFlight:b=no
     completedOneMission:i=2
@@ -154,16 +154,16 @@ content{
       air_killsU_13_0_0:i64=0
       ground_killsU_13_0_0:i64=0
       naval_killsU_13_0_0:i64=0
-      missions_0_1:i64=1713
-      missionsU_0_1:i64=1713
-      time_0_0_1:i64=872521848
-      respawns_0_0_1:i64=3435
-      air_kills_0_0_1:i64=4349
+      missions_0_1:i64=1716
+      missionsU_0_1:i64=1716
+      time_0_0_1:i64=874303848
+      respawns_0_0_1:i64=3440
+      air_kills_0_0_1:i64=4368
       ground_kills_0_0_1:i64=258
       naval_kills_0_0_1:i64=5
-      timeU_0_0_1:i64=872521848
-      respawnsU_0_0_1:i64=3435
-      air_killsU_0_0_1:i64=4349
+      timeU_0_0_1:i64=874303848
+      respawnsU_0_0_1:i64=3440
+      air_killsU_0_0_1:i64=4368
       ground_killsU_0_0_1:i64=258
       naval_killsU_0_0_1:i64=5
       time_1_0_1:i64=4440365
@@ -296,17 +296,17 @@ content{
       air_killsU_13_0_1:i64=0
       ground_killsU_13_0_1:i64=0
       naval_killsU_13_0_1:i64=0
-      missions_0_2:i64=53
-      missionsU_0_2:i64=53
-      time_0_0_2:i64=57857765
+      missions_0_2:i64=59
+      missionsU_0_2:i64=59
+      time_0_0_2:i64=61088529
       respawns_0_0_2:i64=0
-      air_kills_0_0_2:i64=244
-      ground_kills_0_0_2:i64=0
+      air_kills_0_0_2:i64=271
+      ground_kills_0_0_2:i64=9
       naval_kills_0_0_2:i64=0
-      timeU_0_0_2:i64=57857765
+      timeU_0_0_2:i64=61088529
       respawnsU_0_0_2:i64=0
-      air_killsU_0_0_2:i64=244
-      ground_killsU_0_0_2:i64=0
+      air_killsU_0_0_2:i64=271
+      ground_killsU_0_0_2:i64=9
       naval_killsU_0_0_2:i64=0
       time_1_0_2:i64=0
       respawns_1_0_2:i64=0
@@ -318,25 +318,25 @@ content{
       air_killsU_1_0_2:i64=0
       ground_killsU_1_0_2:i64=0
       naval_killsU_1_0_2:i64=0
-      time_2_0_2:i64=0
+      time_2_0_2:i64=376954
       respawns_2_0_2:i64=0
-      air_kills_2_0_2:i64=0
-      ground_kills_2_0_2:i64=0
+      air_kills_2_0_2:i64=3
+      ground_kills_2_0_2:i64=9
       naval_kills_2_0_2:i64=0
-      timeU_2_0_2:i64=0
+      timeU_2_0_2:i64=376954
       respawnsU_2_0_2:i64=0
-      air_killsU_2_0_2:i64=0
-      ground_killsU_2_0_2:i64=0
+      air_killsU_2_0_2:i64=3
+      ground_killsU_2_0_2:i64=9
       naval_killsU_2_0_2:i64=0
-      time_3_0_2:i64=0
+      time_3_0_2:i64=1326899
       respawns_3_0_2:i64=0
-      air_kills_3_0_2:i64=0
-      ground_kills_3_0_2:i64=0
+      air_kills_3_0_2:i64=7
+      ground_kills_3_0_2:i64=14
       naval_kills_3_0_2:i64=0
-      timeU_3_0_2:i64=0
+      timeU_3_0_2:i64=1326899
       respawnsU_3_0_2:i64=0
-      air_killsU_3_0_2:i64=0
-      ground_killsU_3_0_2:i64=0
+      air_killsU_3_0_2:i64=7
+      ground_killsU_3_0_2:i64=14
       naval_killsU_3_0_2:i64=0
       time_4_0_2:i64=0
       respawns_4_0_2:i64=0
@@ -3000,7 +3000,7 @@ content{
     }
 
     last_played{
-      versusItem:t="mozdok_GS"
+      versusItem:t="stalingrad_frontline_GS"
       sm0Chapter:t="honolulu"
       sm0Item:t="honolulu_s02"
       sm1Chapter:t="norway"
@@ -3181,18 +3181,18 @@ content{
               selected:i=1
             }
 
-            country_germany{
-              preset:t="15|2,3,11,15,16|germ_pzkpfw_II_ausf_C,germ_pzkpfw_III_ausf_J,germ_pzkpfw_IV_ausf_C,germ_pzkpfw_IV_ausf_E,germ_panzerjager_1|Army|air_arcade"
-              preset:t="3|2,3,11,15,16|ta-152h-1,fw-190a-8,bf-109e-3,fw-190a-4,bf-109f-4_trop|Aviation|air_arcade"
-              preset:t="2|2,3,11,15,16|bf-109f-4,bf-109f-4_trop,bf-109e-4,bf-109f-2,bf-109e-3|Bf 109s|air_arcade"
-              preset:t="2|2,11,15,16|fw-190a-8,fw-190d-12,fw-190a-4,fw-190a-5_cannons|Preset #4|air_realistic"
-              selected:i=2
-            }
-
             country_britain{
               preset:t="-1|6,7|uk_a_13_mk1,uk_a17_mk_1_tetrarch|Army|tank_event_in_random_battles_arcade"
-              preset:t="19|6,7,13,19,22|spitfire_mk1,fury_mk2,gladiator_mk2_navy,hurricane_mk1,nimrod_mk1|Aviation|air_arcade"
+              preset:t="7|6,7,13,19,22|spitfire_mk1,fury_mk2,gladiator_mk2_navy,hurricane_mk1,nimrod_mk1|Aviation|air_arcade"
               selected:i=1
+            }
+
+            country_germany{
+              preset:t="2|2,3,11,15,16|me-410a-1_u4,germ_pzkpfw_III_ausf_J,germ_pzkpfw_IV_ausf_C,germ_pzkpfw_IV_ausf_E,germ_panzerjager_1|Army|tank_event_in_random_battles_arcade"
+              preset:t="11|2,3,11,15,16|ta-152h-1,fw-190a-8,bf-109e-3,fw-190a-4,bf-109f-4_trop|Aviation|air_arcade"
+              preset:t="16|2,3,11,15,16|bf-109f-4,bf-109f-4_trop,bf-109e-4,bf-109f-2,bf-109e-3|Bf 109s|air_arcade"
+              preset:t="2|2,11,15,16|fw-190a-8,fw-190d-12,fw-190a-4,fw-190a-5_cannons|Preset #4|air_realistic"
+              selected:i=2
             }
           }
 
@@ -3204,7 +3204,7 @@ content{
 
             newbieBattles{
               unitsRank{
-                0:i=3
+                0:i=4
                 1:i=2
               }
             }
@@ -3482,31 +3482,31 @@ content{
           }
 
           seen_shop_items{
-            booster_shop_rp_15_10mp:i=736933
-            ki_87_trophy_common:i=736933
-            fw-190d-9_ussr_trophy_common:i=736933
-            p-51d-20-na_trophy_common:i=736933
-            booster_shop_rp_75_10mp:i=736933
-            booster_shop_wp_15_10mp:i=736933
-            booster_shop_pub_rp_10:i=736933
-            booster_shop_pub_wp_10:i=736933
-            spitfire_mk14c_trophy_common:i=736933
-            booster_shop_wp_40_10mp:i=736933
-            uk_a_43_black_prince_trophy_common:i=736933
-            booster_shop_rp_40_10mp:i=736933
-            booster_shop_wp_75_10mp:i=736933
-            germ_panzerbefelhswagen_jagdpanther_trophy_common:i=736933
-            us_m46_patton_73_armor_bat_trophy_common:i=736933
-            do_335b_2_trophy_common:i=736933
-            booster_shop_pub_wp_22:i=736933
-            ussr_kv_122_trophy_common:i=736933
+            booster_shop_rp_15_10mp:i=736937
+            ki_87_trophy_common:i=736937
+            fw-190d-9_ussr_trophy_common:i=736937
+            p-51d-20-na_trophy_common:i=736937
+            booster_shop_rp_75_10mp:i=736937
+            booster_shop_wp_15_10mp:i=736937
+            booster_shop_pub_rp_10:i=736937
+            booster_shop_pub_wp_10:i=736937
+            spitfire_mk14c_trophy_common:i=736937
+            booster_shop_wp_40_10mp:i=736937
+            uk_a_43_black_prince_trophy_common:i=736937
+            booster_shop_wp_75_10mp:i=736937
+            booster_shop_rp_40_10mp:i=736937
+            germ_panzerbefelhswagen_jagdpanther_trophy_common:i=736937
+            us_m46_patton_73_armor_bat_trophy_common:i=736937
+            do_335b_2_trophy_common:i=736937
+            ussr_kv_122_trophy_common:i=736937
+            booster_shop_pub_wp_22:i=736937
           }
 
           selected_crews{
             country_usa:i=2
-            country_germany:i=0
+            country_germany:i=1
             country_ussr:i=4
-            country_britain:i=2
+            country_britain:i=3
             country_japan:i=1
             country_italy:i=2
           }
@@ -3516,7 +3516,7 @@ content{
       viralAcquisition{
         resetDays:i=1
         lastShowTime:i=736933
-        lastLoginDay:i=736933
+        lastLoginDay:i=736937
       }
 
       1920x1080{
@@ -4256,12 +4256,12 @@ content{
   }
 
   selectedAir{
-    current_model:t="bf-109f-4"
-    current_skin:t="summer42"
+    current_model:t="hurricane_mk1"
+    current_skin:t=""
     usa:t="p-51_mk1a_usaaf"
-    germany:t="bf-109f-4"
+    germany:t="bf-109f-4_trop"
     ussr:t="lagg-3-8"
-    britain:t="gladiator_mk2_navy"
+    britain:t="hurricane_mk1"
     japan:t="ki-45_ko"
     italy:t="ba_65_k14_l"
   }

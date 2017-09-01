@@ -6,7 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 function _update_ps1() {
-    PS1="$(~/.powerline/powerline-go -error $?)"
+    PS1="$(~/.powerline/powerline-go -cwd-max-depth 5 -cwd-max-dir-size 4 -error $?)"
 }
 
 if [ "$TERM" != "linux" ]; then
@@ -23,3 +23,6 @@ fi
 
 # User specific aliases and functions
 alias vim="nvim"
+
+# test "$(ps -ocommand= -p $PPID | awk '{print $1}')" == 'script' || (script --timing=time.txt -f
+# $HOME/log/$(date +"%d-%b-%y_%H-%M-%S")_shell.log)
