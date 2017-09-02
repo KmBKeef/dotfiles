@@ -1,0 +1,3 @@
+sxhkd &
+alacritty &
+exec bspwm
