@@ -1,0 +1,8 @@
+pane	0	1	:bash	1	:*	1	:/home/mk	1	bash	:
+pane	1	1	:bash	0	:-	1	:/usr/share/spin-kickstarts	0	nvim	:nvim fedora-minimal-common.ks
+pane	1	1	:bash	0	:-	2	:/home/mk/gits/sxhkd	1	bash	:
+pane	1	2	:bash	1	:*	1	:/home/mk	1	bash	:
+window	0	1	1	:*	b1fd,145x41,0,0,0
+window	1	1	0	:-	e331,147x42,0,0[147x21,0,0,1,147x20,0,22,5]
+window	1	2	1	:*	b700,147x42,0,0,3
+state	1	

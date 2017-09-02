@@ -1,0 +1,7 @@
+pane	0	1	:bash	1	:*	1	:/home/mk/lab/vagrant	1	bash	:
+pane	1	1	:bash	1	:*	1	:/home/mk/gits/x4/ansible	1	nvim	:nvim roles/nginx/tasks/main.yml
+pane	1	2	:bash	0	:-	1	:/home/mk/lab/vagrant	1	bash	:sudo su -
+window	0	1	1	:*	b6fd,147x42,0,0,0
+window	1	1	1	:*	b6fe,147x42,0,0,1
+window	1	2	0	:-	b6ff,147x42,0,0,2
+state	1	

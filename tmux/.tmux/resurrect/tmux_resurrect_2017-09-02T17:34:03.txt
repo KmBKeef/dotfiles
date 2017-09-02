@@ -1,0 +1,7 @@
+pane	0	1	:bash	1	:*	1	:/home/mk/lab/vagrant	1	bash	:
+pane	1	1	:bash	0	:-	1	:/home/mk/gits/x4/ansible	1	bash	:
+pane	1	2	:bash	1	:*	1	:/home/mk/lab/vagrant	1	bash	:sudo su -
+window	0	1	1	:*	b6fd,147x42,0,0,0
+window	1	1	0	:-	b27e,146x41,0,0,1
+window	1	2	1	:*	b27f,146x41,0,0,2
+state	1	

@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/mk'
+let g:netrw_dirhist_2='/home/mk/gits/x4/ansible/roles/redmine/meta'
+let g:netrw_dirhist_3='/etc/php-fpm.d'
