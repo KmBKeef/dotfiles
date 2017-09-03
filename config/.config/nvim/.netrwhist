@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/mk'
 let g:netrw_dirhist_2='/home/mk/gits/x4/ansible/roles/redmine/meta'
 let g:netrw_dirhist_3='/etc/php-fpm.d'
+let g:netrw_dirhist_4='/home/mk/.dotfiles/config/.config/nvim'
+let g:netrw_dirhist_5='/home/mk/lab/vin/demos/Vimpoint_Documentation.vpp'
+let g:netrw_dirhist_6='/home/mk/.dotfiles/config/.config/nvim/plugged/init.neovim/plugin'

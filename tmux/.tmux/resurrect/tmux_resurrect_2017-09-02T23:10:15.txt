@@ -1,0 +1,9 @@
+pane	0	1	:bash	1	:*	1	:/home/mk/lab/ansible	1	python2	:/usr/bin/python2 /usr/bin/ansible-playbook -i root@192.168.121.182, --ask-pass playbook.yml
+pane	0	2	:bash	0	:	1	:/home/mk/lab/vagrant	1	sudo	:sudo vagrant ssh
+pane	0	3	:bash	0	:	1	:/home/mk/.dotfiles	1	bash	:
+pane	0	4	:bash	0	:-	1	:/home/mk	1	cmus	:cmus
+window	0	1	1	:*	b27d,146x41,0,0,0
+window	0	2	0	:	b282,146x41,0,0,5
+window	0	3	0	:	b283,146x41,0,0,6
+window	0	4	0	:-	b284,146x41,0,0,7
+state	0	

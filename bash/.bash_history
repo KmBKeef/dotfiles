@@ -284,3 +284,223 @@ vim tasks/basic.yml
 ansible-playbook playbook.yml -i 'root@192.168.121.182,' --ask-pass
 vim tasks/basic.yml 
 tmux attach-session 
+ls
+cd
+ls
+sudo updatedb
+locate termite | grep conf
+locate termit
+locate termit | grep co
+cd lab/vagrant/
+ls
+sudo dnf install vagrant libvirt
+ls
+killall nvim
+killall vim
+cd ..
+ls
+
+ls
+vim tasks/basic.yml -O fedora-base-bspwm.ks 
+which initx
+which init
+rpm -qr /usr/sbin/init
+rpm -r /usr/sbin/init
+which init
+rpm -ra /usr/sbin/init
+rpm -qa /usr/sbin/init
+which init
+rpm man
+init 
+man init
+ls
+rm vars
+rmdir vars
+ls
+vim tasks/bspwm.yml -O fedora-base-bspwm.ks 
+dnf search  bar
+dnf search  dzen2
+sudo dnf install dzen2
+dzen2
+vim /usr/share/doc/dzen2/README
+vim /usr/share/doc/dzen2/README.dbar 
+(echo "This is a message"; sleep 10) | dzen2 -bg darkred -fg grey80 -fn fixed
+for i in $(seq 1 20); do A=${A}'='; echo $A; sleep 1; done | dzen2
+(echo Header; cal; sleep 20) | dzen2 -l 8
+(echo Header; while true; do echo test$((i++)); sleep 1; done) | dzen2 -l 12
+echo "Applications" | dzen2 -l 4 -p -m < menufile
+{echo Menu; echo -e "xterm\nxclock\nxeyes\nxfontsel"} | dzen2 -l 4 -m h -p
+dnf search  status | grep bar
+sudo dnf install xmobar
+xmobar 
+xmobar -h
+xmobar
+vim tasks/bspwm.yml -O fedora-base-bspwm.ks 
+
+ansible-playbook $@ -i 'root@192.168.121.181' --ask-pass
+ansible-playbook $@ -i 'root@192.168.121.181' --ask-pass playbook.yml 
+ansible-playbook $@ -i 'root@192.168.121.182' --ask-pass playbook.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+vim tasks/bspwm.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+vim tasks/bspwm.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+vim tasks/bspwm.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+vim tasks/bspwm.yml 
+vim tasks/dotfiles.yml
+sudo dnf search termite
+sudo dnf search ter
+sudo dnf search terminal
+sudo dnf search terminal | grep em
+sudo dnf search terminal | grep emu
+sudo dnf install termit
+termit 
+sudo dnf reinstall gnome-terminal
+gnome-terminal 
+sudo dnf reinstall gnome-terminal
+gnome-terminal 
+vim tasks/bspwm.yml 
+ls
+cd tasks/
+ls
+vim dotfiles.yml 
+vim ../playbook.yml 
+vim bspwm.yml 
+#cp ~/.Xresources ~/.xinitrc ~/.dotfiles/Xorg
+mkdir ~/.dotfiles/Xorg
+cp ~/.Xresources ~/.xinitrc ~/.dotfiles/Xorg
+cd ..
+vim vars.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+vim tasks/dotfiles.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+vim tasks/bspwm.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+vim tasks/dotfiles.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+vim tasks/dotfiles.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+vim tasks/dotfiles.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+ls
+vim playbook.yml 
+vim tasks/dotfiles.yml 
+vim playbook.yml 
+sudo dnf search kvm | grep
+sudo dnf search kvm | grep man
+sudo dnf search kvm
+sudo dnf search libvirt
+sudo dnf install virt-manager
+virt-manager 
+sudo virt-manager 
+vim tasks/bspwm.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+sudo dnf search urx
+sudo dnf search ur
+sudo dnf search ur | grep ter
+sudo dnf search i3
+sudo dnf install i3
+urxvt
+which urxvt
+rpm -qf /usr/bin/urxvt
+vim tasks/bspwm.yml 
+vim tasks/basic.yml 
+mv tasks/dotfiles.yml tasks/keefilized.yml
+vim tasks/keefilized.yml 
+vim playbook.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+ls tasks/
+vim playbook.yml 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+sudo virt-manager 
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+ping 192.168.121.182
+ssh root@192.168.121.182
+sudo ssh root@192.168.121.182
+ssh root@192.168.121.182
+ssh mo@edraj.io
+ssh root@192.168.121.182
+ansible-playbook $@ -i 'root@192.168.121.182,' --ask-pass playbook.yml 
+ssh root@192.168.121.182
+ansible-playbook $@ -i 'vagramt@192.168.121.182,' --ask-pass playbook.yml 
+vagrant ssh
+ansible-playbook $@ -i 'vagramt@192.168.121.182,' --ask-pass playbook.yml 
+vagrant ssh
+virt-manager 
+sudo virt-manager 
+ls
+tmux attach-session 
+ls
+ks
+ls
+mkdir pluggedold
+mv plugged/* pluggedold/
+cd pluggedold/
+l
+ls
+cat init.neovim/
+cat init.neovim/plugin/init.vim 
+cd ..
+ls
+cd plugged
+ls
+cd ..
+ls
+cd pluggedold/
+ls
+mv init.neovim/ ../plugged
+mv vim-colorschemes/ ../plugged
+cd ..
+ls
+mkdir ~/backup
+mv pluggedold/ ~/backup/
+tmux attach-session 
+cat /dev/urandom 
+tmux attach-session 
+vim .config/nvim/init.vim
+vim .config/nvim/plugged/init.neovim/plugin/init.vim 
+cat /dev/urandom 
+cd lab/ansible/
+ansible-playbook $@ -i 'vagramt@192.168.121.182,' --ask-pass playbook.yml 
+ansible-playbook $@ -i 'vagramt@192.168.121.143,' --ask-pass playbook.yml 
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+ssh root@192.168.121.143
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+vim tasks/keefilized.yml 
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+vim tasks/keefilized.yml 
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+vim tasks/keefilized.yml 
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+vim tasks/keefilized.yml 
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+vim tasks/keefilized.yml 
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+vim tasks/keefilized.yml 
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+vim tasks/keefilized.yml 
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+vim tasks/keefilized.yml 
+ansible-playbook $@ -i 'root@192.168.121.143,' --ask-pass playbook.yml 
+vim tasks/keefilized.yml 
+cat /dev/urandom 
+;
+j
+cat /dev/urandom 
+tmux attach-session 
+cat /dev/urandom 
+xkill
+cat /dev/urandom 
+cat /dev/urandom 
+sudo su -
+tmux attach-session 
+tmux
+vim .config/alacritty/alacritty.yml 
+man cornyc
+man chronyc
+htop 
+killall chrony
+killall chronyc 
+sudo killall chronyc 
+htop 

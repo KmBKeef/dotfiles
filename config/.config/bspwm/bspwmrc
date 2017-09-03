@@ -2,7 +2,7 @@
 
 sxhkd &
 xsetroot -cursor_name left_ptr &
-# compton --conf /home/mk/.config/compton/comptom.conf &
+compton --conf /home/mk/.config/compton/comptom.conf &
 feh --bg-fill Pictures/back.jpg &
 # setxkbmap us,ar -option 'grp:alt_shift_toggle' &
 
