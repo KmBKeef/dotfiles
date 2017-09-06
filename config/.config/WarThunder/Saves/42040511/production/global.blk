@@ -1,4 +1,4 @@
-version:i=7233
+version:i=7367
 
 content{
   customDifficulty:i64=190578314555451351
@@ -154,37 +154,37 @@ content{
       air_killsU_13_0_0:i64=0
       ground_killsU_13_0_0:i64=0
       naval_killsU_13_0_0:i64=0
-      missions_0_1:i64=1729
-      missionsU_0_1:i64=1729
-      time_0_0_1:i64=881658848
-      respawns_0_0_1:i64=3469
-      air_kills_0_0_1:i64=4418
-      ground_kills_0_0_1:i64=262
-      naval_kills_0_0_1:i64=5
-      timeU_0_0_1:i64=881658848
-      respawnsU_0_0_1:i64=3469
-      air_killsU_0_0_1:i64=4418
-      ground_killsU_0_0_1:i64=262
-      naval_killsU_0_0_1:i64=5
-      time_1_0_1:i64=5254365
-      respawns_1_0_1:i64=23
+      missions_0_1:i64=1756
+      missionsU_0_1:i64=1756
+      time_0_0_1:i64=897172848
+      respawns_0_0_1:i64=3531
+      air_kills_0_0_1:i64=4543
+      ground_kills_0_0_1:i64=264
+      naval_kills_0_0_1:i64=6
+      timeU_0_0_1:i64=897172848
+      respawnsU_0_0_1:i64=3531
+      air_killsU_0_0_1:i64=4543
+      ground_killsU_0_0_1:i64=264
+      naval_killsU_0_0_1:i64=6
+      time_1_0_1:i64=5528365
+      respawns_1_0_1:i64=26
       air_kills_1_0_1:i64=6
-      ground_kills_1_0_1:i64=35
+      ground_kills_1_0_1:i64=36
       naval_kills_1_0_1:i64=0
-      timeU_1_0_1:i64=5254365
-      respawnsU_1_0_1:i64=23
+      timeU_1_0_1:i64=5528365
+      respawnsU_1_0_1:i64=26
       air_killsU_1_0_1:i64=6
-      ground_killsU_1_0_1:i64=35
+      ground_killsU_1_0_1:i64=36
       naval_killsU_1_0_1:i64=0
-      time_2_0_1:i64=6111000
-      respawns_2_0_1:i64=38
-      air_kills_2_0_1:i64=34
-      ground_kills_2_0_1:i64=90
+      time_2_0_1:i64=6679000
+      respawns_2_0_1:i64=42
+      air_kills_2_0_1:i64=35
+      ground_kills_2_0_1:i64=111
       naval_kills_2_0_1:i64=0
-      timeU_2_0_1:i64=6111000
-      respawnsU_2_0_1:i64=38
-      air_killsU_2_0_1:i64=34
-      ground_killsU_2_0_1:i64=90
+      timeU_2_0_1:i64=6679000
+      respawnsU_2_0_1:i64=42
+      air_killsU_2_0_1:i64=35
+      ground_killsU_2_0_1:i64=111
       naval_killsU_2_0_1:i64=0
       time_3_0_1:i64=34282000
       respawns_3_0_1:i64=137
@@ -296,16 +296,16 @@ content{
       air_killsU_13_0_1:i64=0
       ground_killsU_13_0_1:i64=0
       naval_killsU_13_0_1:i64=0
-      missions_0_2:i64=59
-      missionsU_0_2:i64=59
-      time_0_0_2:i64=61088529
+      missions_0_2:i64=63
+      missionsU_0_2:i64=63
+      time_0_0_2:i64=64816782
       respawns_0_0_2:i64=0
-      air_kills_0_0_2:i64=271
+      air_kills_0_0_2:i64=306
       ground_kills_0_0_2:i64=9
       naval_kills_0_0_2:i64=0
-      timeU_0_0_2:i64=61088529
+      timeU_0_0_2:i64=64816782
       respawnsU_0_0_2:i64=0
-      air_killsU_0_0_2:i64=271
+      air_killsU_0_0_2:i64=306
       ground_killsU_0_0_2:i64=9
       naval_killsU_0_0_2:i64=0
       time_1_0_2:i64=0
@@ -3000,7 +3000,7 @@ content{
     }
 
     last_played{
-      versusItem:t="arcade_alps_GS"
+      versusItem:t="stalingrad_w_AD"
       sm0Chapter:t="honolulu"
       sm0Item:t="honolulu_s02"
       sm1Chapter:t="norway"
@@ -3164,36 +3164,37 @@ content{
               preset:t="-1|8,9|ki_10_2,ki_10_1|Aviation|air_arcade"
             }
 
-            country_usa{
-              preset:t="-1|0,1|us_m2a4,us_m2a2|Army|tank_event_in_random_battles_arcade"
-              preset:t="10|0,1,10,17,24|p-47n-15,p-63a-5,p-51_mk1a_usaaf,p-63a-10,p-47d|Aviation|air_arcade"
-              selected:i=1
-            }
-
-            country_italy{
-              preset:t="27|25,26,27,28|cr_32_quater,cr_32,ba_65_k14_l,fiat_cr42_marcolin_italy|Preset #1|air_arcade"
-              selected:i=0
-            }
-
-            country_ussr{
-              preset:t="-1|4,5|ussr_t_26_1940,ussr_bt_5|Army|tank_event_in_random_battles_arcade"
-              preset:t="21|4,5,12,18,21|yak-1_early,bb-1,yak-7b,i-16_type10,lagg-3-8|Aviation|air_arcade"
-              selected:i=1
-            }
-
             country_britain{
               preset:t="-1|6,7|uk_a_13_mk1,uk_a17_mk_1_tetrarch|Army|tank_event_in_random_battles_arcade"
               preset:t="19|6,7,13,19,22|spitfire_mk1,fury_mk2,gladiator_mk2_navy,hurricane_mk1,nimrod_mk1|Aviation|air_arcade"
               selected:i=1
             }
 
+            country_usa{
+              preset:t="-1|0,1|us_m2a4,us_m2a2|Army|tank_event_in_random_battles_arcade"
+              preset:t="10|0,1,10,17,24|p-47n-15,p-63a-5,p-51_mk1a_usaaf,p-63a-10,p-47d|Aviation|air_arcade"
+              preset:t="24|0,1,10,17,24|p-26a_34_m2,p-36c,p-36a,sbd-3,p-40e|Preset #3|air_arcade"
+              selected:i=2
+            }
+
+            country_ussr{
+              preset:t="-1|4,5|ussr_t_26_1940,ussr_bt_5|Army|tank_event_in_random_battles_arcade"
+              preset:t="12|4,5,12,18,21|yak-1_early,bb-1,su-2_mv5,i-16_type10,lagg-3-8|Aviation|air_arcade"
+              selected:i=1
+            }
+
+            country_italy{
+              preset:t="28|25,26,27,28,29|cr_32_quater,cr_32,ba_65_k14_l,fiat_cr42_marcolin_italy,fiat_cr42_italy|Preset #1|air_arcade"
+              selected:i=0
+            }
+
             country_germany{
               preset:t="2|2,3,11,15,16|me-410a-1_u4,germ_pzkpfw_III_ausf_J,germ_pzkpfw_IV_ausf_C,germ_pzkpfw_IV_ausf_E,germ_panzerjager_1|Army|tank_event_in_random_battles_arcade"
               preset:t="11|2,3,11,15,16|ta-152h-1,fw-190a-8,bf-109e-3,fw-190a-4,bf-109f-4_trop|Aviation|air_arcade"
-              preset:t="3|2,3,11,15,16|bf-109f-4,bf-109f-4_trop,bf-109e-4,bf-109f-2,bf-109e-3|Bf 109s|air_arcade"
-              preset:t="2|2,11,15,16|fw-190a-8,fw-190d-12,fw-190a-4,fw-190a-5_cannons|Preset #4|air_realistic"
-              preset:t="11|2,3,11,15,16|do_17e_1,bf-109e-1,he_112a_0,mc-202,fiat_g50_seria7as|Preset #5|air_arcade"
-              selected:i=3
+              preset:t="2|2,3,11,15,16|bf-109f-4,bf-109f-4_trop,bf-109e-4,bf-109f-2,bf-109e-3|Bf 109s|air_arcade"
+              preset:t="11|2,3,11,15,16|me-262a-1a,fw-190a-8,fw-190d-12,fw-190a-4,fw-190a-5_cannons|Preset #4|air_arcade"
+              preset:t="2|2,3,11,15,16|fw-190a-8,fw-190a-1,bf-109g-2,fw-190a-5_cannons,fw-190a-4|Preset #5|air_arcade"
+              selected:i=4
             }
           }
 
@@ -3205,7 +3206,7 @@ content{
 
             newbieBattles{
               unitsRank{
-                0:i=5
+                0:i=4
                 1:i=2
               }
             }
@@ -3224,7 +3225,7 @@ content{
               list_of_changes:b=no
               operation_summer:b=yes
               tournament_id443:b=yes
-              current_battle_tasks_mainmenu_button:b=no
+              current_battle_tasks_mainmenu_button:b=yes
               events_mainmenu_button:b=yes
               naval_battles:b=yes
               gamescom:b=yes
@@ -3238,6 +3239,7 @@ content{
               ww2_chronicles_vehicles:b=no
               web_poll_27:b=no
               1_69_update:b=yes
+              28_panfilof_promo:b=yes
             }
 
             promo{
@@ -3280,133 +3282,16 @@ content{
             }
 
             battletasks{
-              Medium_TankAB_kills_of_tank_destroyer_030717_1238:i=736878
-              Easy_AirRB_assists_210816_1327:i=736878
-              Easy_AirAB_win_200417_2141:i=736878
-              Easy_AirAB_streaks_010517_1901:i=736878
-              Easy_AirAB_streaks_300617_1827:i=736876
-              Easy_AirAB_kills_on_fighter_021216_1639:i=736878
-              Easy_AirAB_win_290517_1333:i=736878
-              Easy_AirAB_kills_on_fighter_150616_0944:i=736878
-              Easy_AirRB_kills_on_fighter_030717_1238:i=736878
-              Easy_AirAB_kills_on_fighter_180816_1428:i=736878
-              Easy_TankAB_assists_300617_1827:i=736876
-              Easy_AirAB_crits_150816_1545:i=736878
-              Easy_AirAB_squad_streaks_130816_1531:i=736878
-              Easy_AirAB_place_181116_1109:i=736878
-              Easy_AirAB_kills_on_fighter_150617_1242:i=736878
-              Medium_AirAB_streaks_marks5fighter_150617_1242:i=736878
-              Easy_AirAB_streaks_090816_0547:i=736878
-              Easy_AirRB_place_win_260417_1141:i=736878
-              Medium_AirAB_streaks_nearHeroic_250517_1341:i=736878
-              Easy_AirRB_assists_050717_1523:i=736890
-              Easy_AirRB_assists_270517_0953:i=736878
-              Easy_AirRB_crits_030517_1923:i=736878
-              Easy_AirAB_crits_290417_1644:i=736878
-              Easy_AirAB_assists_211116_1730:i=736878
-              Easy_AirAB_place_win_171116_0854:i=736878
-              Easy_TankAB_kills_on_tank_destroyer_030717_1238:i=736878
-              Easy_AirAB_kills_on_fighter_090417_1722:i=736878
-              Easy_AirRB_place_win_260517_1148:i=736878
-              Easy_AirAB_streaks_281116_1831:i=736878
-              Easy_AirAB_streaks_nearHeroic_161216_0511:i=736878
-              Easy_AirRB_kills_on_fighter_200517_1952:i=736878
-              Easy_AirAB_assists_180417_1733:i=736878
-              Easy_TankRB_streaks_nearHeroic_150717_1616:i=736890
-              Easy_AirAB_win_270716_1628:i=736878
-              Easy_AirAB_kills_on_fighter_110816_1809:i=736878
-              Easy_AirAB_win_061216_1555:i=736878
-              Easy_AirAB_streaks_220816_1135:i=736878
-              Easy_AirAB_kills_on_fighter_310317_1917:i=736878
-              Easy_AirAB_win_231116_1453:i=736878
-              Easy_AirAB_place_win_101216_0500:i=736878
-              Easy_AirAB_assists_110617_1803:i=736878
-              Easy_AirAB_crits_111116_1741:i=736878
-              Easy_AirRB_place_win_050617_2227:i=736878
-              Easy_AirRB_win_220417_1828:i=736878
-              Easy_AirRB_streaks_300617_1827:i=736876
-              Easy_AirAB_win_060717_2012:i=736890
-              Easy_AirAB_win_100916_1136:i=736878
-              Easy_TankAB_win_150717_1616:i=736890
-              Easy_AirAB_place_win_051216_0327:i=736878
-              Medium_AirAB_crits_150717_1616:i=736890
-              Easy_AirAB_place_win_040517_2211:i=736878
-              Easy_AirAB_place_081216_0351:i=736878
-              Easy_AirAB_kills_on_fighter_200816_1442:i=736878
-              Easy_AirAB_crits_280517_1429:i=736878
-              Medium_AirRB_crits_030717_1238:i=736878
-              Easy_AirAB_kills_on_fighter_130517_1346:i=736878
-              Easy_AirAB_place_win_190517_2113:i=736878
-              Easy_AirAB_streaks_050417_1443:i=736878
-              Easy_AirAB_place_win_301116_1740:i=736878
-              Medium_TankRB_kills_on_SPAA_030717_1238:i=736878
-              Easy_AirAB_kills_on_fighter_110517_1304:i=736878
-              Easy_AirAB_win_290716_1632:i=736878
-              Medium_AirAB_assists_290517_1333:i=736878
-              Easy_AirRB_win_180616_1107:i=736878
-              Easy_AirAB_assists_140617_1420:i=736878
-              Easy_AirAB_assists_250517_1341:i=736878
-              Easy_AirRB_gkills_on_bomber_150717_1616:i=736890
-              Easy_AirAB_squad_streaks_120816_1729:i=736878
-              Easy_AirAB_squad_streaks_250816_1052:i=736878
-              Easy_AirAB_assists_300517_1824:i=736878
-              Easy_TankRB_kills_on_heavy_tank_300617_1827:i=736876
-              Easy_AirAB_place_120617_1750:i=736878
-              Easy_AirRB_win_010816_1523:i=736878
-              Easy_AirAB_squad_streaks_230816_1136:i=736878
-              Easy_AirAB_win_161116_0323:i=736878
-              Medium_AirRB_place_win_150717_1616:i=736890
-              Easy_AirAB_crits_240816_1219:i=736878
-              Easy_AirAB_place_win_140417_1814:i=736878
-              Easy_AirAB_assists_080916_1537:i=736878
-              Easy_AirAB_place_160417_0327:i=736878
-              Easy_AirAB_place_win_030717_1238:i=736878
-              Medium_TankRB_kills_on_heavy_tank_150717_1616:i=736890
-              Medium_TankAB_kills_of_tank_150717_1616:i=736890
-              Easy_AirAB_kills_on_fighter_150717_1616:i=736890
-              Easy_AirAB_crits_020916_1302:i=736878
-              Medium_TankAB_streaks_multiKill_020717_1435:i=736878
-              Easy_AirAB_assists_181216_0425:i=736878
-              Easy_AirAB_place_131216_0345:i=736878
-              Easy_AirAB_assists_160616_1043:i=736878
-              Easy_AirAB_win_190417_1539:i=736878
-              Easy_AirAB_crits_020717_1435:i=736878
-              Easy_AirRB_place_210417_2013:i=736878
-              Easy_AirAB_kills_on_fighter_310816_1636:i=736878
-              Medium_AirAB_kills_of_fighter_300517_1824:i=736878
-              Easy_AirAB_streaks_201216_1839:i=736878
-              Medium_AirAB_kills_of_bomber_051216_0327:i=736878
-              Easy_AirRB_streaks_nearHeroic_010717_1628:i=736878
-              Easy_AirAB_crits_121216_0507:i=736878
-              Easy_AirRB_squad_streaks_020617_2140:i=736878
-              Medium_AirRB_kills_of_bomber_020717_1435:i=736878
-              Easy_AirAB_streaks_280816_1859:i=736878
-              Easy_AirAB_place_131116_0414:i=736878
-              Medium_AirAB_streaks_multiKill_020717_1435:i=736878
-              Easy_TankRB_streaks_030717_1238:i=736878
-              Medium_AirAB_streaks_nearHeroic_120816_1729:i=736878
-              Medium_AirAB_win_030717_1238:i=736878
-              Easy_AirAB_place_win_011216_1737:i=736878
-              Easy_AirAB_kills_on_fighter_271116_1756:i=736878
-              Easy_AirAB_assists_140816_1507:i=736878
-              Easy_AirAB_kills_on_fighter_180517_2117:i=736878
-              Easy_AirAB_assists_241216_0403:i=736878
-              Medium_TankRB_place_win_020717_1435:i=736878
-              Easy_AirAB_streaks_nearHeroic_221216_0412:i=736878
-              Easy_AirAB_crits_060617_2106:i=736878
-              Easy_AirAB_place_040916_1218:i=736878
-              Easy_AirAB_win_170616_0920:i=736878
-              Easy_AirAB_assists_310517_2003:i=736878
-              Easy_AirAB_kills_on_fighter_130617_1558:i=736878
-              Easy_AirAB_kills_on_fighter_170417_1112:i=736878
-              Easy_AirAB_place_win_300816_1731:i=736878
-              Medium_AirAB_win_170417_1112:i=736878
-              Easy_AirAB_win_031216_1531:i=736878
-              Easy_AirAB_assists_280317_1655:i=736878
-              Easy_AirAB_assists_300417_1544:i=736878
-              Medium_AirAB_crits_081216_0351:i=736878
-              Easy_AirRB_win_280716_1830:i=736878
-              Easy_AirAB_squad_streaks_040717_1717:i=736890
+              Easy_TankAB_squad_streaks_040917_1202:i=736941
+              Medium_TankRB_kills_on_tank_040917_1202:i=736941
+              Medium_TankAB_assists_040917_1202:i=736941
+              Easy_AirAB_streaks_270817_1339:i=736941
+              Medium_AirRB_squad_streaks_040917_1202:i=736941
+              Medium_AirAB_streaks_firstBlood_040917_1202:i=736941
+              Easy_AirAB_place_win_040917_1202:i=736941
+              Easy_AirRB_place_win_040917_1202:i=736941
+              Easy_AirAB_streaks_nearHeroic_310817_1837:i=736941
+              Easy_TankRB_kills_on_tank_040917_1202:i=736941
             }
           }
 
@@ -3482,34 +3367,34 @@ content{
             booster_wp_15_10mp:i=736851
           }
 
-          seen_shop_items{
-            do_335b_2_trophy_common:i=736938
-            ki_87_trophy_common:i=736938
-            fw-190d-9_ussr_trophy_common:i=736938
-            p-51d-20-na_trophy_common:i=736938
-            booster_shop_rp_75_10mp:i=736938
-            us_m46_patton_73_armor_bat_trophy_common:i=736938
-            booster_shop_pub_rp_10:i=736938
-            booster_shop_pub_wp_10:i=736938
-            spitfire_mk14c_trophy_common:i=736938
-            booster_shop_wp_40_10mp:i=736938
-            uk_a_43_black_prince_trophy_common:i=736938
-            booster_shop_pub_wp_22:i=736938
-            ussr_kv_122_trophy_common:i=736938
-            germ_panzerbefelhswagen_jagdpanther_trophy_common:i=736938
-            booster_shop_wp_15_10mp:i=736938
-            booster_shop_rp_15_10mp:i=736938
-            booster_shop_wp_75_10mp:i=736938
-            booster_shop_rp_40_10mp:i=736938
+          selected_crews{
+            country_usa:i=4
+            country_germany:i=0
+            country_ussr:i=2
+            country_britain:i=3
+            country_japan:i=3
+            country_italy:i=3
           }
 
-          selected_crews{
-            country_usa:i=2
-            country_germany:i=2
-            country_ussr:i=4
-            country_britain:i=3
-            country_japan:i=1
-            country_italy:i=2
+          seen_shop_items{
+            do_335b_2_trophy_common:i=736943
+            ki_87_trophy_common:i=736943
+            fw-190d-9_ussr_trophy_common:i=736943
+            p-51d-20-na_trophy_common:i=736943
+            booster_shop_rp_75_10mp:i=736943
+            us_m46_patton_73_armor_bat_trophy_common:i=736943
+            booster_shop_pub_rp_10:i=736943
+            booster_shop_pub_wp_10:i=736943
+            spitfire_mk14c_trophy_common:i=736943
+            booster_shop_wp_40_10mp:i=736943
+            uk_a_43_black_prince_trophy_common:i=736943
+            booster_shop_pub_wp_22:i=736943
+            ussr_kv_122_trophy_common:i=736943
+            germ_panzerbefelhswagen_jagdpanther_trophy_common:i=736943
+            booster_shop_wp_15_10mp:i=736943
+            booster_shop_rp_15_10mp:i=736943
+            booster_shop_wp_75_10mp:i=736943
+            booster_shop_rp_40_10mp:i=736943
           }
         }
       }
@@ -3517,7 +3402,7 @@ content{
       viralAcquisition{
         resetDays:i=1
         lastShowTime:i=736933
-        lastLoginDay:i=736938
+        lastLoginDay:i=736943
       }
 
       1920x1080{
@@ -3657,7 +3542,7 @@ content{
       }
 
       bf-109e-1{
-        USEROPT_LOAD_FUEL_AMOUNT:i=422739
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
       }
 
       bf-109e-3{
@@ -3689,7 +3574,7 @@ content{
       }
 
       p-26a_34_m2{
-        USEROPT_LOAD_FUEL_AMOUNT:i=446389
+        USEROPT_LOAD_FUEL_AMOUNT:i=308823
       }
 
       ki_10_2{
@@ -4235,6 +4120,10 @@ content{
       ju-87r-2{
         USEROPT_LOAD_FUEL_AMOUNT:i=300000
       }
+
+      fiat_cr42_italy{
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
     }
 
     userSkins{
@@ -4265,13 +4154,13 @@ content{
   }
 
   selectedAir{
-    current_model:t="fw-190d-12"
+    current_model:t="fw-190a-8"
     current_skin:t=""
-    usa:t="p-51_mk1a_usaaf"
-    germany:t="fw-190d-12"
-    ussr:t="lagg-3-8"
+    usa:t="p-40e"
+    germany:t="fw-190a-8"
+    ussr:t="su-2_mv5"
     britain:t="hurricane_mk1"
-    japan:t="ki-45_ko"
-    italy:t="ba_65_k14_l"
+    japan:t="a6m2_n_zero"
+    italy:t="fiat_cr42_marcolin_italy"
   }
 }

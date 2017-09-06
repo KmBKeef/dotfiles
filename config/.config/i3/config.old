@@ -216,19 +216,19 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #i
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
-for_window [class="^.*"] border pixel 0
+#for_window [class="^.*"] border pixel 0
 
-exec --no-startup-id feh --bg-scale /home/mk/Pictures/background3.png
+#exec --no-startup-id feh --bg-scale /home/mk/Pictures/background3.png
 # exec --no-startup-id yabar
 # exec_always --no-startup-id /home/mk/.config/polybar/launch.sh
-exec_always --no-startup-id compton
-exec --no-startup-id setxkbmap us,ar -option 'grp:alt_shift_toggle'
+#exec_always --no-startup-id compton
+#exec --no-startup-id setxkbmap us,ar -option 'grp:alt_shift_toggle'
 # exec --no-startup-id i3-msg 'workspace Firefox; exec /usr/bin/firefox'
 # exec --no-startup-id i3-msg 'workspace 4: ; exec alacritty -e cmus'
-exec_always --no-startup-id ctrl.sh
+#exec_always --no-startup-id ctrl.sh
 
 #Special keybindings
-bindsym $mod+Shift+v exec vagranty
+#bindsym $mod+Shift+v exec vagranty
 
 # Workspaces specific
 

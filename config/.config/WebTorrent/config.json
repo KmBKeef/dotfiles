@@ -6,22 +6,135 @@
     "externalPlayerPath": null,
     "startup": false
   },
-  "torrents": [],
+  "torrents": [
+    {
+      "status": "seeding",
+      "infoHash": "179edb9842b767126a0fdac664993b09e73a23cb",
+      "name": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]",
+      "path": "/home/mk",
+      "magnetURI": "magnet:?xt=urn:btih:179edb9842b767126a0fdac664993b09e73a23cb&dn=House+Of+Cards+S02+Complete+Season+2+BluRay+720p+x265+HEVC+%5Bnate_666%5D&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com",
+      "files": [
+        {
+          "length": 240943024,
+          "name": "House.Of.Cards.S02E07.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E07.720p.BluRay.x265.mkv"
+        },
+        {
+          "length": 215946905,
+          "name": "House.Of.Cards.S02E08.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E08.720p.BluRay.x265.mkv"
+        },
+        {
+          "length": 183072382,
+          "name": "House.Of.Cards.S02E13.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E13.720p.BluRay.x265.mkv"
+        },
+        {
+          "length": 176207741,
+          "name": "House.Of.Cards.S02E11.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E11.720p.BluRay.x265.mkv"
+        },
+        {
+          "length": 174889326,
+          "name": "House.Of.Cards.S02E05.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E05.720p.BluRay.x265.mkv"
+        },
+        {
+          "length": 172874837,
+          "name": "House.Of.Cards.S02E06.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E06.720p.BluRay.x265.mkv"
+        },
+        {
+          "length": 169213417,
+          "name": "House.Of.Cards.S02E09.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E09.720p.BluRay.x265.mkv"
+        },
+        {
+          "length": 163001990,
+          "name": "House.Of.Cards.S02E01.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E01.720p.BluRay.x265.mkv",
+          "currentTime": 0,
+          "duration": 2964.233
+        },
+        {
+          "length": 158393767,
+          "name": "House.Of.Cards.S02E02.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E02.720p.BluRay.x265.mkv"
+        },
+        {
+          "length": 157120500,
+          "name": "House.Of.Cards.S02E03.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E03.720p.BluRay.x265.mkv",
+          "currentTime": 0,
+          "duration": 3057.326
+        },
+        {
+          "length": 156098421,
+          "name": "House.Of.Cards.S02E10.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E10.720p.BluRay.x265.mkv"
+        },
+        {
+          "length": 132012000,
+          "name": "House.Of.Cards.S02E04.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E04.720p.BluRay.x265.mkv",
+          "currentTime": 0,
+          "duration": 2864.717
+        },
+        {
+          "length": 126364252,
+          "name": "House.Of.Cards.S02E12.720p.BluRay.x265.mkv",
+          "path": "House Of Cards S02 Complete Season 2 BluRay 720p x265 HEVC [nate_666]/House.Of.Cards.S02E12.720p.BluRay.x265.mkv"
+        }
+      ],
+      "selections": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "torrentFileName": "179edb9842b767126a0fdac664993b09e73a23cb.torrent",
+      "mostRecentFileIndex": 11,
+      "fileModtimes": [
+        1504569912807,
+        1504570061420,
+        1504569605283,
+        1504569707385,
+        1504569438905,
+        1504570172061,
+        1504570207455,
+        1504569292869,
+        1504571859991,
+        1504574686160,
+        1504656620015,
+        1504656425183,
+        1504656180517
+      ]
+    }
+  ],
   "version": "0.18.0",
   "telemetry": {
     "userID": "4c3aaf9b4b6249da7db532b0cc3ee6ad8ba77d42dcdb7704cf8ca9a428395f12",
     "uncaughtErrors": [],
     "playAttempts": {
       "minVersion": "0.18.0",
-      "total": 0,
+      "total": 5,
       "success": 0,
-      "error": 0,
-      "external": 0,
+      "error": 3,
+      "external": 2,
       "abandoned": 0
     },
     "version": "0.18.0",
-    "timestamp": "2017-08-31T23:39:46.482Z",
-    "localTime": "02:39:46 GMT+0300 (+03)",
+    "timestamp": "2017-09-06T00:01:41.406Z",
+    "localTime": "03:01:41 GMT+0300 (+03)",
     "screens": [
       {
         "width": 1920,
@@ -39,7 +152,7 @@
     },
     "torrentStats": {
       "approxCount": 1,
-      "approxSizeMB": 512,
+      "approxSizeMB": 2048,
       "byStatus": {
         "new": {
           "approxCount": 0,
@@ -47,7 +160,7 @@
         },
         "downloading": {
           "approxCount": 1,
-          "approxSizeMB": 512
+          "approxSizeMB": 2048
         },
         "seeding": {
           "approxCount": 0,
@@ -62,9 +175,9 @@
     "approxNumTorrents": 1
   },
   "bounds": {
-    "height": 1017,
-    "width": 976,
-    "x": 14,
-    "y": 49
+    "height": 1028,
+    "width": 1908,
+    "x": 4,
+    "y": 44
   }
 }

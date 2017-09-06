@@ -4,10 +4,10 @@ sxhkd &
 xsetroot -cursor_name left_ptr &
 compton --conf /home/mk/.config/compton/comptom.conf &
 feh --bg-fill Pictures/back.jpg &
-# setxkbmap us,ar -option 'grp:alt_shift_toggle' &
+setxkbmap us,ar -option 'grp:alt_shift_toggle' &
 
-bspc config border_width         2
-bspc config window_gap           4
+bspc config border_width         0
+bspc config window_gap           0
 bspc config top_padding 40
 
 bspc config active_border_color #282828
@@ -20,7 +20,7 @@ bspc config history_aware_focus  true
 # bspc monitor -d I II III IV V VI VII VIII IX X
 # bspc monitor -d Tmux Web NoTmux Games stuff
 
-bspc monitor -d    
+bspc monitor -d 1 2 3 4 5 6 7
 # bspc monitor -d 
 
 # bspc rule -a Gimp desktop=^8 state=floating follow=on

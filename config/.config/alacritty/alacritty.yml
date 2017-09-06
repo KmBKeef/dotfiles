@@ -25,7 +25,7 @@ dimensions:
 # (change requires restart)
 padding:
   x: 0
-  y: 2
+  y: 0
 
 # The FreeType rasterizer needs to know the device DPI for best results
 # (changes require restart)
@@ -44,7 +44,7 @@ font:
   # The normal (roman) font face to use.
   normal:
     family: "hack"
-    style: Regular
+    style: Bold
     # family: monospace # should be "Menlo" or something on macOS.
     # Style can be specified to pick a specific face.
     # style: Regular
@@ -94,80 +94,35 @@ render_timer: false
 # background_opacity: 0.5
 custom_cursor_colors: false
 #
-# Colors (Nord)
+
 colors:
-   # Default colors
-   primary:
-     background: '0x2E3440'
-     foreground: '0xD8DEE9'
+ # Default colors
+ primary:
+   background: '0x161219'
+   foreground: '0xfaf9ff'
 
-   # Normal colors
-   normal:
-     black:   '0x3B4252'
-     red:     '0xBF616A'
-     green:   '0xA3BE8C'
-     yellow:  '0xEBCB8B'
-     blue:    '0x81A1C1'
-     magenta: '0xB48EAD'
-     cyan:    '0x88C0D0'
-     white:   '0xE5E9F0'
+ # Colors the cursor will use if `custom_cursor_colors` is true
 
-   # Bright colors
-   bright:
-     black:   '0x4C566A'
-     red:     '0xBF616A'
-     green:   '0xA3BE8C'
-     yellow:  '0xEBCB8B'
-     blue:    '0x81A1C1'
-     magenta: '0xB48EAD'
-     cyan:    '0x8FBCBB'
-     white:   '0xECEFF4'
+ # Normal colors
+ normal:
+  black:   '0x1d2c47'
+  red:     '0xd2275a'
+  green:   '0x8752ba'
+  yellow:  '0xe15581'
+  blue:    '0x1e59aa'
+  magenta: '0x8752ba'
+  cyan:    '0x4b76b8'
+  white:   '0xfff9f9'
 
-# # Colors (Tomorrow Night Bright)
-# colors:
-#  # Default colors
-#  primary:
-#    background: '0x1D1C27'
-#    foreground: '0xC8D1E3'
-#
-#  # Colors the cursor will use if `custom_cursor_colors` is true
-#  cursor:
-#    text: '0x2B2A3B'
-#    cursor: '0xC8D1E3'
-#
-#  # Normal colors
-#  normal:
-#    black:   '0x686B82'
-#    red:     '0xFF3E57'
-#    green:   '0x00FA8E'
-#    yellow:  '0xE5D781'
-#    blue:    '0x18A2FF'
-   # magenta: '0xCE63EC'
-   # cyan:    '0x47E3DD'
-#    white:   '0xC8D1E3'
-#
-#  # Bright colors
-#  bright:
-#    black:   '0x2B2A3B'
-#    red:     '0xFF3E57'
-#    green:   '0x00FA8E'
-#    yellow:  '0xE5D781'
-#    blue:    '0x18A2FF'
-#    magenta: '0xCE63EC'
-#    cyan:    '0x47E3DD'
-#    white:   '0xEDEFF2'
-#
-#  # Dim colors (Optional)
-#  dim:
-# ￼   black:   '0x333333'
-# ￼   red:     '0xf2777a'
-# ￼   green:   '0x99cc99'
-# ￼   yellow:  '0xffcc66'
-# ￼   blue:    '0x6699cc'
-# ￼   magenta: '0xcc99cc'
-# ￼   cyan:    '0x66cccc'
-# ￼   white:   '0xdddddd'
-
+ bright:
+  black:   '0x1d2c47'
+  red:     '0xff2f6d'
+  green:   '0xb66efb'
+  yellow:  '0xfb5f90'
+  blue:    '0x2c84fc'
+  magenta: '0xb56efa'
+  cyan:    '0x67a2fd'
+  white:   '0xfff9f9'
 # Visual Bell
 #
 # Any time the BEL code is received, Alacritty "rings" the visual bell. Once
@@ -309,7 +264,7 @@ mouse:
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
 
-hide_cursor_when_typing: false
+hide_cursor_when_typing: true
 
 # Shell
 #

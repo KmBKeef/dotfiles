@@ -1,35 +1,13 @@
-;=====================================================
-;
-;    ▄▄▄· ▄• ▄▌▄▄▄▄▄       ▄▄▄· ▄ .▄ ▄▄▄·  ▄▄ •  ▄· ▄▌
-;   ▐█ ▀█ █▪██▌•██  ▪     ▐█ ▄███▪▐█▐█ ▀█ ▐█ ▀ ▪▐█▪██▌
-;   ▄█▀▀█ █▌▐█▌ ▐█.▪ ▄█▀▄  ██▀·██▀▐█▄█▀▀█ ▄█ ▀█▄▐█▌▐█▪
-;   ▐█ ▪▐▌▐█▄█▌ ▐█▌·▐█▌.▐▌▐█▪·•██▌▐▀▐█ ▪▐▌▐█▄▪▐█ ▐█▀·.
-;    ▀  ▀  ▀▀▀  ▀▀▀  ▀█▄▀▪.▀   ▀▀▀ · ▀  ▀ ·▀▀▀▀   ▀ •
-;   ·▄▄▄▄        ▄▄▄▄▄·▄▄▄▪  ▄▄▌  ▄▄▄ ..▄▄ ·
-;   ██▪ ██ ▪     •██  ▐▄▄·██ ██•  ▀▄.▀·▐█ ▀.
-;   ▐█· ▐█▌ ▄█▀▄  ▐█.▪██▪ ▐█·██▪  ▐▀▀▪▄▄▀▀▀█▄
-;   ██. ██ ▐█▌.▐▌ ▐█▌·██▌.▐█▌▐█▌▐▌▐█▄▄▌▐█▄▪▐█
-;   ▀▀▀▀▀•  ▀█▄▀▪ ▀▀▀ ▀▀▀ ▀▀▀.▀▀▀  ▀▀▀  ▀▀▀▀
-;
-;   To learn more about how to configure Polybar
-;   go to https://github.com/jaagr/polybar
-;
-;   The README contains alot of information
-;
-;=====================================================
-
 [colors]
-; background = #424242
-background = #2E3440
+background = #161219
 foreground = #759fbc
-foregroud = #6B756C
-; foregroud = #00FA8E
 alert = #dd5837
 poweritems = #9dd583
+underline = #8342f4
 
 [bar/statusbar]
- monitor = eDP-1
-width = 100%
+monitor = eDP-1
+  width = 11%
 height = 40
 radius = 0.0
 fixed-center = true
@@ -49,13 +27,9 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Interface:pixelsize=14;2
-font-1 = FontAwesome:pixelsize=14;2
+font-0 = hack:pixelsize=13;2
 
 modules-left = bspwm
-modules-center = date
-;modules-right = date
- modules-right = wlan battery volume powermenu
 
 wm-restack = bspwm
 ; tray-position =
@@ -64,63 +38,28 @@ wm-restack = bspwm
 [module/bspwm]
 type = internal/bspwm
 
-;icon-default = ♟
-; ws-icon-0 = 1;一
-; ws-icon-1 = 2;二
-; ws-icon-2 = 3;三
-; ws-icon-3 = 4;四
-; ws-icon-4 = 5;五
-; ws-icon-5 = 6;六
-; ws-icon-6 = 7;七
-; ws-icon-7 = 8;八
 
-label-mode-padding = 2
+label-mode-padding = 1
 label-mode-foreground = #000
 label-mode-background = ${colors.background}
 
 label-focused = %name%
 label-focused-background = ${colors.foreground}
 label-focused-foreground= ${colors.background}
-;${colors.foreground}
-; label-focused-underline= ${colors.foreground}
-label-focused-padding = 2
+ label-focused-underline= ${colors.underline}
+label-focused-padding = 1
 
 label-occupied = %name%
-label-occupied-padding = 2
+label-occupied-padding = 1
 
 label-urgent = %name%
 label-urgent-foreground = ${colors.background}
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+label-urgent-padding = 1
 
 label-empty = %name%
-label-empty-padding = 2
-label-empty-foreground = ${colors.foregroud}
-
-[module/i3]
-type = internal/i3
-format = <label-state> <label-mode>
-index-sort = true
-wrapping-scroll = true
-strip-wsnumbers = true
-pin-workspaces = true
-
-label-mode-padding = 3
-label-mode-foreground = ${colors.background}
-
-label-unfocused-foreground = ${colors.foreground}
-label-unfocused-padding = 3
-
-label-visible-foregroud = ${colors.foreground}
-label-visible-padding = 3
-
-label-focused-foreground = ${colors.background}
-label-focused-background = #9FA895
-label-focused-padding = 3
-
-label-urgent-padding = 3
-label-urgent-foreground = ${colors.background}
-label-urgent-background = ${colors.alert}
+label-empty-padding = 1
+label-empty-foreground = ${colors.foreground}
 
 [module/xwindow]
 type = internal/xwindow
@@ -188,63 +127,6 @@ ramp-capacity-3-foreground = ${colors.foreground}
 ramp-capacity-4 = 
 ramp-capacity-4-foreground = ${colors.foreground}
 
-[module/powermenu]
-type = custom/menu
-
-format-spacing = 0
-
-label-open = 
-label-open-padding = 3
-label-open-foreground = #252525
-label-open-background = ${colors.alert}
-label-close = 
-label-close-padding = 3
-label-close-foreground = #252525
-label-close-background = ${colors.alert}
-
-menu-0-0 = 
-menu-0-0-padding = 3
-menu-0-0-background = ${colors.poweritems}
-menu-0-0-foreground = #252525
-menu-0-0-exec = shutdown -h now
-menu-0-1 = 
-menu-0-1-padding = 3
-menu-0-1-background = ${colors.poweritems}
-menu-0-1-foreground = #252525
-menu-0-1-exec = reboot
-menu-0-2 = 
-menu-0-2-padding = 3
-menu-0-2-background = ${colors.poweritems}
-menu-0-2-foreground = #252525
-menu-0-2-exec = ~/bin/lock.sh && systemctl suspend
-menu-0-3 = 
-menu-0-3-padding = 3
-menu-0-3-background = ${colors.poweritems}
-menu-0-3-foreground = #252525
-menu-0-3-exec = bspc quit
-
-[module/revolutionary]
-type = custom/script
-interval = 10
-format = <label>
-exec = ~/.config/polybar/revolutionary
-
-[module/pomodoro]
-type = custom/script
-; Use pomodoro glyphs in Nerd fonts
-exec = pymodoro --break-prefix "" --pomodoro-prefix "" --pomodoro "" --empty "" --break "" --length 5
-; Use default symbols
-; exec = pymodoro --length 5e
-label = %output%
-tail = true
-interval = 0
-; Start or reset the timer
-click-left = if [ -e ~/.pomodoro_session ]; then rm ~/.pomodoro_session; else echo "25 5" > ~/.pomodoro_session; fi
-; Increase pomodoro time
-click-right = echo "$((`cut .pomodoro_session -d ' ' -f 1`+5)) 5" > .pomodoro_session
-; Reduce pomodoro time
-click-middle = echo "$((`cut .pomodoro_session -d ' ' -f 1`-5)) 5" > .pomodoro_session
-
 [module/date]
 type = internal/date
 interval = 1
@@ -255,11 +137,11 @@ date-alt = " %Y-%m-%d"
 time = %l:%M %p
 time-alt = %l:%M %p
 
-format-prefix = 
-format-prefix-foreground = ${colors.foregroud}
+format-prefix = 
+format-prefix-foreground = ${colors.foreground}
 ;format-underline = #fff
 
-label = %date% %time%
+label = %time%
 
 [settings]
 screenchange-reload = true

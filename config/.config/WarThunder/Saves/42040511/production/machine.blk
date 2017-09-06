@@ -1,4 +1,4 @@
-version:i=37
+version:i=49
 
 content{
   machineId:t="0fab84c539ed817117baf69904143fc29d05fb1f"
@@ -149,7 +149,7 @@ content{
     OPTIONS_MODE_TRAINING{
       USEROPT_WEATHER:t="clear"
       USEROPT_TIME:t="Day"
-      USEROPT_AIRCRAFT:t="bf-109f-4"
+      USEROPT_AIRCRAFT:t="fiat_g50_seria7as"
       USEROPT_SKIN:t="summer42"
       USEROPT_DIFFICULTY:t="arcade"
       USEROPT_LIMITED_FUEL:b=no
@@ -218,7 +218,7 @@ content{
       USEROPT_LOAD_FUEL_AMOUNT:i=300000
       USEROPT_ALLOW_JIP:b=no
       USEROPT_VERSUS_RESPAWN:i=-2
-      USEROPT_IS_BOTS_ALLOWED:b=yes
+      USEROPT_IS_BOTS_ALLOWED:b=no
       USEROPT_BOTS_RANKS:i=0
       USEROPT_MAX_PLAYERS:i=4
       USEROPT_MISSION_COUNTRIES_TYPE:i=0
